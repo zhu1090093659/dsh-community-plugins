@@ -1442,4 +1442,16 @@
     "category": "tools",
     "subcategory": "context"
   }
+,
+  {
+    "id": "dsh-zhipu-mcp",
+    "name": "智谱 MCP 三件套",
+    "nameEn": "Zhipu MCP Suite",
+    "author": "youbuwei",
+    "description": "智谱 BigModel 专属 MCP 独立插件：联网搜索（webSearchPrime）、网页读取（webReader）与开源仓库（zread：仓库文档检索 / 目录结构 / 源码读取）三件套。桥接运行中 DSH 自带的 dsh-mcp-client，复用 GLM Coding Plan 当前 Key，零配置接入。",
+    "descriptionEn": "Standalone plugin for Zhipu BigModel official MCP servers: webSearchPrime (web search), webReader (page reader) and zread (GitHub repo docs/structure/source). Bridges the running DSH host own dsh-mcp-client and reuses the existing GLM Coding Plan key for zero-config setup.",
+    "repo": "https://github.com/youbuwei/dsh-zhipu-mcp",
+    "category": "integration",
+    "subcategory": "external-ai"
+  }
 ]
