@@ -1441,5 +1441,16 @@
     "npm": "dsh-attention-health",
     "category": "tools",
     "subcategory": "context"
+  },
+  {
+    "id": "agent-body",
+    "name": "Agent-Body 器官化插件层",
+    "nameEn": "Agent-Body",
+    "author": "1420079678-ctrl",
+    "description": "把 DSH 插件组织成一具身体：插件声明自己是器官（能力 / 感知 / 反射弧），内核补上其余生理机能——按内环境变速的心脏泵血、神经冲动路由、零模型调用的反射弧、静默 2 分钟浅睡 5 分钟深睡的确定性记忆巩固，以及先归因再处置、器官下次成功才闭合伤口的自愈闭环；另含零驻留上下文引擎，把体积大的工具输出驱逐出活动上下文、只留指针，需要时按原样取回。一条命令装齐三个核心器官，其余器官可单独安装。",
+    "descriptionEn": "Organises DSH plugins into a body: the plugins declare themselves organs (capabilities, senses, reflex arcs) and the kernel supplies the rest of the physiology — a heartbeat that changes rate with the internal environment, nerve-impulse routing, reflex arcs that fire with zero model calls, deterministic memory consolidation after 2 minutes of light and 5 minutes of deep sleep, and a self-healing loop that attributes a failure before acting and only closes a wound once the organ succeeds again. It also carries a zero-residence context engine that evicts oversized tool payloads from the live context, keeps pointers, and rebuilds any payload verbatim on demand. One command installs the three core organs; the others install individually.",
+    "repo": "https://github.com/1420079678-ctrl/agent-body",
+    "category": "tools",
+    "subcategory": "dev"
   }
 ]
