@@ -1443,6 +1443,18 @@
     "subcategory": "context"
   },
   {
+    "id": "dsh-wx-bridge",
+    "name": "微信接入 DSH",
+    "nameEn": "WeChat Bridge",
+    "author": "zhy5",
+    "description": "把手机微信接到本机 DSH：自建 iLink 桥 + 常驻 ACP 原生会话（上下文由 DSH 持有、可 resume），手机对话就是桌面工作区里的会话；支持图片识别、直接发文件（Excel / Word / PDF 等，由会话里的 agent 自行解析）与语音转写，带「微信连接」设置面板。准入默认 strict（只服务已登记设备）；权限预设默认 workspace-write，越界的写与提权会先在微信里弹审批卡、可直接在微信内应答，120 秒未应答按拒绝；danger-full-access 现在是需要手动开启的选项。",
+    "descriptionEn": "Bridge WeChat to your local DSH: a self-hosted iLink bridge over a persistent ACP session (context lives in DSH and stays resumable). Phone conversations appear as desktop workspace sessions, with image recognition, file messages (Excel/Word/PDF, parsed by the agent itself) and voice transcripts, plus a settings panel. Access defaults to strict (only registered devices are served); the permission preset defaults to workspace-write, with out-of-workspace writes and privilege escalation surfaced as approvals answerable from WeChat (unanswered after 120s is denied); danger-full-access is now an opt-in.",
+    "repo": "https://github.com/zhy5/dsh-wx-bridge",
+    "npm": "@zmainer/dsh-wx-bridge",
+    "category": "integration",
+    "subcategory": "bridge"
+  },
+  {
     "id": "agent-body",
     "name": "Agent-Body 器官化插件层",
     "nameEn": "Agent-Body",
