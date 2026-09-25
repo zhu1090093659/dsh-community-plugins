@@ -11,6 +11,16 @@ The community plugin index data source of the dsh web ecosystem: `community.json
 - Validation: `node scripts/community-index` checks the index contract (the `pnpm community:check` CI gate runs the same check).
 - No settings surface: this package no longer ships any UI (the community plugin card was replaced by the Workshop store's plugin catalog); the inert cordis row only keeps existing profiles and the aggregate resolving it — it contributes no UI after install.
 
+## Most popular plugins
+
+The three most-liked plugins in the Workshop's plugin category on [dsh-market.com](https://dsh-market.com), in the site's default popularity order — every one of them an entry of `community.json`:
+
+| Plugin | Author | Category | What it does |
+|---|---|---|---|
+| [Subagent Management](https://dsh-market.com/#plugin:dsh-chatgpt-subscription) (`dsh-chatgpt-subscription`) | Aa728848 | integration / external-ai | Use GPT models in DSH through your ChatGPT subscription: PKCE OAuth login, credential storage, streaming Responses, image generation, Codex search, quota display and subagent management |
+| [Mnemon Memory](https://dsh-market.com/#plugin:dsh-mnemon) (`dsh-mnemon`) | omdsh-dev | knowledge / memory | Cross-agent, local-first persistent memory built on the Mnemon CLI: user profiles, working memory, project documents and long-term Memory Spaces, with import and export |
+| [Free Search](https://dsh-market.com/#plugin:dsh-free-search) (`dsh-free-search`) | DDDMUC | tools / dev | Multi-engine web search without API keys: automatic fallback across 10 engines, time filtering, 8 platform searches and a web settings panel |
+
 ## Install
 
 This package does not need a direct install; it ships with the repository as the index data source.
