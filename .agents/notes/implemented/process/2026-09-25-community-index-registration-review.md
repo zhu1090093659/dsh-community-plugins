@@ -43,6 +43,15 @@ data file means registration pull requests are serialized by construction.
   against the existing catalog and the family bundle. A claim that cannot be
   backed by the repository at review time is reported as unverified rather than
   accepted on the strength of a README.
+- **An install that never mounts is a compatibility failure, not a
+  documentation gap.** `dsh plugin add` installs a package that declares no
+  `dsh.bundle` as a plain dependency: the reconcile step skips it, it never
+  enters the profile's `bundles`, and a restart does not load it. A
+  registration whose upstream package is missing that declaration is held until
+  upstream ships it — the entry may be perfectly compliant, but the plugin is
+  not installable as advertised, and the store would be sending every user to a
+  no-op. The check is a reproduction of the install, not a reading of the
+  README.
 - **Contributors' forks are repaired with a merge commit, not a force push.**
   When a registration pull request conflicts, the branch is advanced by merging
   `main` into it and pushing that merge back. This keeps the contributor's own
@@ -94,3 +103,18 @@ data file means registration pull requests are serialized by construction.
   `dsh-wx-bridge` merged, `agent-body` and `dsh-wx-bridge` conflicted at the
   same anchor, so each repair rebuilt the file as current `main` plus the one
   new entry.
+- Verification: the second 2026-09-26 round merged one registration,
+  `dsh-model-priority` (entry diff `+11/−0`), after reproducing the install,
+  reading the plugin's write path against its store copy — the four pre-write
+  checks and the "unchanged means no write, reuse an existing backup, keep five"
+  backup policy in `lib/index.js` and `lib/backup.js` — and confirming the
+  description's narrowing matched the source. The head's CI reported
+  `community index gate, typecheck, test and build: success` and
+  `community-index: OK (125 entries)`. The contributor withdrew
+  `dsh-auto-continue` from the same pull request themselves before review, so
+  only one entry entered the index.
+- Verification: `dsh-zhipu-mcp` stayed open on the missing `dsh.bundle`
+  declaration. Its index gate was green and the entry itself compliant, so the
+  hold names exactly one upstream change; the review also recorded, as a
+  non-blocking note, that the plugin resolves the host's `dsh-mcp-client` from
+  hard-coded desktop app roots that do not exist on a standard npm install.
