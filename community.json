@@ -1499,5 +1499,17 @@
     "npm": "dsh-widgets",
     "category": "ui",
     "subcategory": "panel"
+  },
+  {
+    "id": "dsh-nexttavern",
+    "name": "NextTavern 角色扮演",
+    "nameEn": "NextTavern Roleplay",
+    "author": "a86582751",
+    "description": "面向 DeepSeek Harness 0.1.7-rc.2 / Web 的角色扮演插件：角色卡导入与创作、世界线、世界书、分层长期记忆、关键词/语义/混合检索、角色 Agent、角色卡与小说导出。支持 SillyTavern 角色卡导入；NextTavern 0.3 的 MVU/EJS/RUBY 与前端兼容仍在开发。当前不支持 DSH 0.2 desktop。",
+    "descriptionEn": "Roleplay plugin for DeepSeek Harness 0.1.7-rc.2 / Web: character-card import and authoring, worldlines, lorebooks, layered long-term memory, keyword/semantic/hybrid retrieval, character Agents, and character-card and novel export. Supports SillyTavern character-card import; NextTavern 0.3 compatibility work for SillyTavern MVU/EJS/RUBY and frontend features remains in development. DSH 0.2 desktop is not supported.",
+    "repo": "https://github.com/a86582751/dsh-nexttavern",
+    "npm": "dsh-nexttavern",
+    "category": "ui",
+    "subcategory": "chat"
   }
 ]
