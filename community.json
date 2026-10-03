@@ -1523,5 +1523,16 @@
     "npm": "dsh-screen-capture-record-desktop",
     "category": "tools",
     "subcategory": "dev"
+  },
+  {
+    "id": "dsh-whale-musume",
+    "name": "鲸鱼娘·元气桌宠",
+    "nameEn": "Whale Girl Desktop Pet",
+    "author": "Sutera-Diffusus",
+    "description": "元气鲸鱼娘桌宠：待机时安静陪跑，检测到工具开始运行就抱起笔记本，工作中不插话、不随机换姿势。免费版含 90+ 立绘、530+ 台词、39 项成就、成长等级与日记、每日任务、周签到、天气陪伴、戳头/投喂/气泡小游戏，交互分区与点击特效齐全；同时支持 DSH 桌面端（Electron 壳，内嵌 0.2.0-rc.2）与旧版 Web。默认不联网、无遥测，读取对话内容与余额的开关一律默认关闭。",
+    "descriptionEn": "A cheerful whale-girl desktop pet for DeepSeek Harness: idles quietly while you code, picks up a laptop the moment a tool starts running, and never talks or switches poses while work is in progress. Ships with 90+ artworks, 530+ dialogue lines, 39 achievements, growth levels with a journal, daily quests, weekly sign-in, weather companionship, head-pat/feeding/bubble minigames, per-zone interactions and click effects. Runs on both the desktop app (Electron shell bundling DSH 0.2.0-rc.2) and the legacy web host. Local-first and offline by default: no telemetry, and every toggle that reads conversation content or account balance is off unless you turn it on.",
+    "repo": "https://github.com/Sutera-Diffusus/dsh-whale-musume",
+    "category": "ui",
+    "subcategory": "panel"
   }
 ]
