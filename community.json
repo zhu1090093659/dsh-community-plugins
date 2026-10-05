@@ -1547,5 +1547,17 @@
     "npm": "dsh-plugin-wallpaper-engine",
     "category": "ui",
     "subcategory": "render"
+  },
+  {
+    "id": "dsh-camofox-browser",
+    "name": "Camofox 反检测浏览器",
+    "nameEn": "Camofox Anti-Detection Browser",
+    "author": "lemonhall",
+    "description": "把 Camoufox 反检测浏览器接成 DSH 原生工具：Firefox 分支在 C++ 层伪装指纹（webdriver、WebGL、屏幕、时区），在普通无头浏览器会被识别的站点上更稳。一个 action 工具覆盖开标签页、可交互快照、点击输入、正文提取、截图落盘与 YouTube 字幕，并按需拉起和回收后端服务。",
+    "descriptionEn": "Camoufox anti-detection browser as native DSH tools: a Firefox fork that spoofs fingerprints (webdriver, WebGL, screen, timezone) at the C++ level, so it holds up where plain headless browsers get flagged. One action-based tool covers open/snapshot/click/type/text-extraction/screenshot-to-disk/YouTube transcripts, and starts or reaps the backend service on demand.",
+    "repo": "https://github.com/lemonhall/dsh-camofox-browser",
+    "npm": "dsh-camofox-browser",
+    "category": "tools",
+    "subcategory": "browser"
   }
 ]
