@@ -1547,5 +1547,87 @@
     "npm": "dsh-plugin-wallpaper-engine",
     "category": "ui",
     "subcategory": "render"
+  },
+  {
+    "author": "lemonhall",
+    "repo": "https://github.com/lemonhall/dsh-calendar-dock",
+    "id": "dsh-calendar-dock",
+    "name": "日历",
+    "nameEn": "Calendar",
+    "description": "右侧栏日历：记录某天的事件、勾选完成、看今天与未来若干天。数据存在本地。",
+    "descriptionEn": "A calendar in the right sidebar: add events on a date, tick them off, and review today or the next several days. Data stays local.",
+    "npm": "dsh-calendar-dock",
+    "category": "utility"
+  },
+  {
+    "author": "lemonhall",
+    "repo": "https://github.com/lemonhall/dsh-ledger-dock",
+    "id": "dsh-ledger-dock",
+    "name": "记账本",
+    "nameEn": "Ledger",
+    "description": "右侧栏记账：一笔一笔记录收支、按分类与月份汇总。数据存在本地。",
+    "descriptionEn": "A ledger in the right sidebar: record income and expenses one entry at a time and summarise by category and month. Data stays local.",
+    "npm": "dsh-ledger-dock",
+    "category": "utility",
+    "subcategory": "stats"
+  },
+  {
+    "author": "lemonhall",
+    "repo": "https://github.com/lemonhall/dsh-calorie-dock",
+    "id": "dsh-calorie-dock",
+    "name": "卡路里日记",
+    "nameEn": "Calorie Diary",
+    "description": "右侧栏卡路里日记：内置常见食物热量表，按餐次记录并对照每日目标。",
+    "descriptionEn": "A calorie diary in the right sidebar: a built-in food energy table, per-meal logging and a daily goal to compare against.",
+    "npm": "dsh-calorie-dock",
+    "category": "utility",
+    "subcategory": "stats"
+  },
+  {
+    "author": "lemonhall",
+    "repo": "https://github.com/lemonhall/dsh-todo-dock",
+    "id": "dsh-todo-dock",
+    "name": "待办清单",
+    "nameEn": "To-do List",
+    "description": "右侧栏轻量待办：加一条、勾掉、只看未完成。数据存在本地。",
+    "descriptionEn": "A lightweight to-do list in the right sidebar: add an item, tick it off, and filter to what is still open. Data stays local.",
+    "npm": "dsh-todo-dock",
+    "category": "utility"
+  },
+  {
+    "author": "lemonhall",
+    "repo": "https://github.com/lemonhall/dsh-pomodoro-dock",
+    "id": "dsh-pomodoro-dock",
+    "name": "番茄闹钟",
+    "nameEn": "Pomodoro Timer",
+    "description": "右侧栏番茄钟：计时在宿主侧算（切标签页也不中断），支持专注、短休、长休三种阶段与时长配置。",
+    "descriptionEn": "A pomodoro timer in the right sidebar: the countdown runs host-side so switching tabs never breaks it, with focus, short-break and long-break phases and configurable lengths.",
+    "npm": "dsh-pomodoro-dock",
+    "category": "utility",
+    "subcategory": "notify"
+  },
+  {
+    "author": "lemonhall",
+    "repo": "https://github.com/lemonhall/dsh-irc-dock",
+    "id": "dsh-irc-dock",
+    "name": "IRC 聊天",
+    "nameEn": "IRC Chat",
+    "description": "右侧栏 IRC 客户端：连默认 Libera.Chat，可进频道、收发消息，消息只在内存里不落盘。",
+    "descriptionEn": "An IRC client in the right sidebar: connects to Libera.Chat by default, joins channels and exchanges messages, keeping messages in memory only.",
+    "npm": "dsh-irc-dock",
+    "category": "integration",
+    "subcategory": "bridge"
+  },
+  {
+    "author": "lemonhall",
+    "repo": "https://github.com/lemonhall/dsh-qqmail-dock",
+    "id": "dsh-qqmail-dock",
+    "name": "QQ 邮箱",
+    "nameEn": "QQ Mail",
+    "description": "右侧栏 QQ 邮箱：看最近邮件、读正文、发纯文本邮件。授权码存在本地私有文件里，不出现在任何输出中。",
+    "descriptionEn": "QQ Mail in the right sidebar: list recent messages, read a body, and send plain-text mail. The authorisation code lives in a local private file and never appears in any output.",
+    "npm": "dsh-qqmail-dock",
+    "category": "integration",
+    "subcategory": "bridge"
   }
 ]
