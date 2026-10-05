@@ -1547,5 +1547,16 @@
     "npm": "dsh-plugin-wallpaper-engine",
     "category": "ui",
     "subcategory": "render"
+  },
+  {
+    "id": "dsh-shipcheck",
+    "name": "Shipcheck 交付验收",
+    "nameEn": "Shipcheck Release Check",
+    "author": "guo6x",
+    "description": "交付前先拿证据的前端验收插件：借 dsh-pilot 驱动真实浏览器跑验收检查、用户流程与命名基线，产出可复现的 JSON 报告；不修改被测项目，也不替你忽略失败项。",
+    "descriptionEn": "Evidence-first frontend release checks for DSH: it drives a real browser through dsh-pilot for acceptance checks, user flows and named baselines, then writes reproducible JSON reports; it never edits the inspected project and never dismisses a failure for you.",
+    "repo": "https://github.com/guo6x/dsh-shipcheck",
+    "category": "tools",
+    "subcategory": "dev"
   }
 ]
