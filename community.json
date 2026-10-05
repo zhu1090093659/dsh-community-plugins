@@ -1547,5 +1547,16 @@
     "npm": "dsh-plugin-wallpaper-engine",
     "category": "ui",
     "subcategory": "render"
+  },
+  {
+    "id": "dsh-palate",
+    "name": "Palate 品味训练",
+    "nameEn": "Palate Design Taste",
+    "author": "guo6x",
+    "description": "会长大的设计评审品味库：13 个本地 palate_* 工具覆盖设计评审、视觉训练与参考包，案例和原则只有显式确认才写入、且随时可审计；Apple / X 参考包可选装，零运行时依赖。",
+    "descriptionEn": "A growing, auditable design-review palate for DSH: 13 local palate_* tools covering design review, visual training and reference packs; examples and principles are written only after an explicit confirmation and stay auditable. Apple/X reference packs are opt-in; zero runtime dependencies.",
+    "repo": "https://github.com/guo6x/dsh-palate",
+    "category": "knowledge",
+    "subcategory": "qa"
   }
 ]
