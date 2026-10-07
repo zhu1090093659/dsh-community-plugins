@@ -1558,5 +1558,16 @@
     "repo": "https://github.com/Daizhdd/dsh-pet-quota",
     "category": "utility",
     "subcategory": "stats"
+  },
+{
+    "id": "dsh-web-start-ui",
+    "name": "dsh web start ui · 启动动画",
+    "nameEn": "dsh web start ui (Launch Video)",
+    "author": "stushansusu",
+    "description": "打开 DSH 时的全屏启动动画（视频皮肤）：宿主半区在界面首绘之前就把视频起播，浏览器半区接管同一个 <video>（不重播），视频播完才落帘。包内自带一段皮肤（青花瓷 · 水墨，12.3s），设置页可选皮肤、上传与删除自定义皮肤（存 $DSH_HOME/launch-animations）、即时预览、播放频率与点击跳过；资产路由带 ETag 与 Range，二次启动走 304 不再重下。独立插件，不并入全家桶。",
+    "descriptionEn": "A full-screen launch video for DSH: the host half starts the video before the shell paints, the browser half adopts that very <video> element instead of restarting it, and the curtain lifts when the video ends. One skin ships in the package (Blue-and-White · Ink, 12.3s); the settings page selects skins, uploads and deletes custom ones (kept in $DSH_HOME/launch-animations), previews on the spot, and controls replay policy and click-to-skip. Asset responses carry an ETag (a cached install revalidates with a 304) and support Range requests. Standalone plugin, not enrolled in the all-in-one bundle.",
+    "repo": "https://github.com/stushansusu/dsh-web-start-ui",
+    "category": "ui",
+    "subcategory": "render"
   }
 ]
