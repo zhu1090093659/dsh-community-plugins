@@ -1558,5 +1558,17 @@
     "repo": "https://github.com/Daizhdd/dsh-pet-quota",
     "category": "utility",
     "subcategory": "stats"
+  },
+  {
+    "id": "dsh-connection-card-host",
+    "name": "连接卡片宿主",
+    "nameEn": "Connection Card Host",
+    "author": "Noob-stupid",
+    "description": "把「连接」做成 DSH 里的一等对象：会话是节点，连接是容器，卡片按连接挂载。一条连接连接两个会话，两端可以互相读取对方的工作状态、共用一份记录接口与分工的「公约盒」，并按四档紧急度互发消息；权限分方向（只读／建议／写入），两个方向互不影响。卡片是挂在连接上的连接级插件：卡片注册的工具只有这条连接上的会话能通过一个常驻桥接工具调用，可见范围可以按端限定；卡片自带依赖、装在独立目录，不写入 DSH profile。连接、权限与已安装卡片都保存在 $DSH_HOME/connection-cards/ 下，重启后连接会恢复。",
+    "descriptionEn": "Makes a connection a first-class object in DSH: sessions are nodes, a connection is the container, and cards mount per connection. One connection joins two sessions, so each side can read the other's work state, share a convention box for interfaces and ownership, and send messages at four urgency levels; permissions are per direction (read-only / suggest / write) and the two directions are independent. Cards are connection-level plugins: the tools a card registers are reachable only by sessions on that connection, through one resident bridge tool, with visibility scoped per side; a card carries its own dependencies in its own directory and writes nothing to the DSH profile. Connections, permissions and installed cards live under $DSH_HOME/connection-cards/, and connections are restored on restart.",
+    "repo": "https://github.com/Noob-stupid/dsh-connection-card-host",
+    "npm": "@noob-stupid/dsh-connection-card-host",
+    "category": "integration",
+    "subcategory": "bridge"
   }
 ]
