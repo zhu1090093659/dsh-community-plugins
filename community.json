@@ -1548,7 +1548,7 @@
     "category": "ui",
     "subcategory": "render"
   },
-{
+  {
     "id": "dsh-pet-quota",
     "name": "宠物额度气泡",
     "nameEn": "Pet Quota Bubble",
@@ -1558,5 +1558,17 @@
     "repo": "https://github.com/Daizhdd/dsh-pet-quota",
     "category": "utility",
     "subcategory": "stats"
+  },
+  {
+    "author": "lemonhall",
+    "repo": "https://github.com/lemonhall/dsh-media-dock",
+    "id": "dsh-media-dock",
+    "name": "媒体台",
+    "nameEn": "Media Dock",
+    "description": "右侧栏媒体台：把抖音或 YouTube 链接丢进来，本机用 yt-dlp 下载、ffmpeg 转码，再用本地语音识别转成文字稿，Agent 就能直接读原文做总结。",
+    "descriptionEn": "A media dock in the right sidebar: drop in a Douyin or YouTube link and the machine downloads it with yt-dlp, transcodes with ffmpeg, and transcribes it with local speech recognition, so the agent can read the transcript and summarise it.",
+    "npm": "dsh-media-dock",
+    "category": "tools",
+    "subcategory": "dev"
   }
 ]
