@@ -1558,5 +1558,16 @@
     "repo": "https://github.com/Daizhdd/dsh-pet-quota",
     "category": "utility",
     "subcategory": "stats"
+  },
+  {
+    "id": "dsh-flash-presets",
+    "name": "DSH Flash 精简预设",
+    "nameEn": "DSH Flash Lean Presets",
+    "author": "LarryE135",
+    "description": "面向 flash 级路由的两个 token 效率优化 agent 预设：flash-lean-ptc-v2（现行推荐）与 flash-lean-ptc-v1。PTC 工具面（run_code 为唯一直接可调用工具）加行为硬约束，压缩阈值等参数写在补丁层；以 DSH 组合包（dsh.bundle）形式随 profile 一键安装，README 附 BENCH-STD 基准数据（8 用例同批对照）与 scripts/selftest.sh 端到端自测。宿主侧纯配置补丁，无浏览器半区。",
+    "descriptionEn": "Two token-efficiency agent presets for flash-tier routes: flash-lean-ptc-v2 (the current recommendation) and flash-lean-ptc-v1. A PTC tool surface (run_code is the only directly callable tool) plus hard behavior rules, with the compaction parameters set in the patch layer; installed into a profile as a DSH bundle (dsh.bundle). The README carries the BENCH-STD benchmark data (8 cases, same-batch comparison) and scripts/selftest.sh runs the end-to-end self-test. Host-side configuration patch only, with no browser half.",
+    "repo": "https://github.com/LarryE135/dsh-flash-presets",
+    "category": "agent",
+    "subcategory": "preset"
   }
 ]
