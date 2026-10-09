@@ -1558,5 +1558,16 @@
     "repo": "https://github.com/Daizhdd/dsh-pet-quota",
     "category": "utility",
     "subcategory": "stats"
+  },
+  {
+    "id": "dsh-clear-usage",
+    "name": "DSH Token 用量统计",
+    "nameEn": "DSH Token Usage",
+    "author": "xgxx666",
+    "description": "在 DSH 设置中查看本地会话的 Token 用量和原生缓存命中，支持今天的小时柱状图与 Token 构成条、本月/全部/自定义日期热力图、模型用量圆环图及本地/API 筛选；不估算费用，不替换输入框状态栏。需要 DSH 0.2.0-rc.2 或更高兼容版本。",
+    "descriptionEn": "Local Token usage in DSH Settings with native cache-hit accounting, today's hourly bars and token composition, daily heatmaps for month/all/custom dates, model breakdowns and local/API filters. No cost estimates or composer overrides. Requires DSH 0.2.0-rc.2 or newer.",
+    "repo": "https://github.com/xgxx666/dsh-clear-usage",
+    "category": "utility",
+    "subcategory": "stats"
   }
 ]
