@@ -1558,5 +1558,16 @@
     "repo": "https://github.com/Daizhdd/dsh-pet-quota",
     "category": "utility",
     "subcategory": "stats"
+  },
+  {
+    "id": "cute-fat-fish-pet",
+    "name": "蓝毛小女仆",
+    "nameEn": "Blue-Haired Little Maid",
+    "author": "12we21",
+    "description": "DSH Web 界面里的 Q 版蓝发小女仆桌宠：106 个手绘透明动画，会自己在桌面上漫步、被点到有反应、冒碎碎念气泡；可接本机 Ollama 或 DSH 在线模型陪聊，另有可选的看屏幕吐槽。免费开源 MIT。",
+    "descriptionEn": "A chibi blue-haired maid desktop pet for the DSH Web GUI: 106 hand-drawn transparent animations, idle wandering, click reactions and muttering bubbles, with chat through a local Ollama model or DSH's online models plus an optional screen-watching mode. Free and open source (MIT).",
+    "repo": "https://github.com/12we21/cute-fat-fish-pet",
+    "category": "ui",
+    "subcategory": "panel"
   }
 ]
