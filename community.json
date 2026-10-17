@@ -1650,5 +1650,27 @@
     "repo": "https://github.com/xgxx666/dsh-clear-usage",
     "category": "utility",
     "subcategory": "stats"
+  },
+  {
+    "id": "dsh-skill-install",
+    "name": "技能安装",
+    "nameEn": "Skill Install",
+    "author": "Joey-K-tsubame",
+    "description": "从 GitHub 仓库搜索并安装 SKILL.md 技能：装到全局 / 当前项目 / 自定义目录，与内置 skill-filesystem 联动，装完即时生效。",
+    "descriptionEn": "Search GitHub repositories and install their SKILL.md skills into the global, project, or a custom directory; hot-loads through the built-in skill-filesystem.",
+    "repo": "https://github.com/Joey-K-tsubame/dsh-skill-install",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
+    "id": "dsh-delete-archived",
+    "name": "删除已归档对话",
+    "nameEn": "Delete Archived Conversations",
+    "author": "Joey-K-tsubame",
+    "description": "为已归档会话增加「删除对话」入口，并提供 delete_archived_conversation 工具，彻底删除会话日志与工作区登记。",
+    "descriptionEn": "Adds a delete entry to archived conversations in the sidebar plus a delete_archived_conversation tool that removes the session log and workspace records.",
+    "repo": "https://github.com/Joey-K-tsubame/dsh-delete-archived",
+    "category": "utility",
+    "subcategory": "cleanup"
   }
 ]
