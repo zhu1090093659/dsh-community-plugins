@@ -1650,5 +1650,16 @@
     "repo": "https://github.com/xgxx666/dsh-clear-usage",
     "category": "utility",
     "subcategory": "stats"
+  },
+  {
+    "id": "dsh-composer-pro",
+    "name": "输入框增强",
+    "nameEn": "Composer Pro",
+    "author": "mengge237",
+    "description": "把 DSH 输入框做成 VS Code 手感：括号引号自动配对（半角与全角都算）、选中一段再打括号直接框住（Shift 组合键与中文输入法同样有效）、光标右边是闭符时跳过、退格删掉空对；补全弹层给四类候选——草稿里出现过的词（本地即时算）、各语言关键字与标签（HTML/JS/Python/Java/CSS，没写围栏时按你用过的语言上词表）、工作区文件路径（按路径段前缀匹配）、settings 里配的模型名，首位候选还会以行内灰字贴在光标后。打满两个字母自动弹、建议框贴光标不遮正文；Tab 接受、回车保持发送。标准 DSH bundle 插件：一条命令安装，不依赖第三方运行时、不写任何文件、不改宿主源码。已知边界：语言词表在服务端半边，装好或改过词表后要重启一次 dsh web 才生效；Alt+↑ 移动行这类要动宿主编辑器的操作没有做。",
+    "descriptionEn": "Brings the VS Code editing feel to the DSH composer: auto-pairing brackets and quotes (half-width and full-width), wrapping the selection when you type an opener (Shift combinations and IME input included), type-over closers and delete-empty-pair; the completion popup offers draft words (computed locally), per-language keywords and tags (HTML/JS/Python/Java/CSS, falling back to the language you have been using), workspace file paths matched on path-segment prefixes, and the model ids configured in settings, with the top candidate also shown as inline ghost text. It pops up after two identifier characters, anchored to the caret so it never covers the line being written; Tab accepts and Enter stays the send key. Standard DSH bundle plugin: one command to install, no third-party runtime dependency, no file writes, no host source changes. Known limits: the language word tables live in the server half, so a dsh web restart is needed after installing or editing them, and editor-level operations such as Alt+Up line moving are not implemented.",
+    "repo": "https://github.com/mengge237-labs/dsh-composer-pro",
+    "category": "ui",
+    "subcategory": "chat"
   }
 ]
