@@ -1650,5 +1650,17 @@
     "repo": "https://github.com/xgxx666/dsh-clear-usage",
     "category": "utility",
     "subcategory": "stats"
+  },
+  {
+    "id": "smart-compaction",
+    "name": "智能压缩",
+    "nameEn": "Smart Compaction",
+    "author": "JoblessJoe",
+    "description": "让模型在安全时机自己压缩上下文：compact_now 工具基于 dsh 公开的 compactRegion() 接口，回合中途也可用；context_status 工具对照会话实际的上下文窗口报告真实 token 用量（需要 dsh-token-meter）。另外，待办事项标记为完成且用量超过 safePointRatio（默认 0.5）时会自动压缩。dsh 自带的 80% 阈值仍作为兜底。不改动 dsh 核心。安装不运行任何脚本，也无需额外步骤：在 web 配置的各 preset 中，插件通过 preset 注册表找到该 agent 自己的压缩服务。需要 dsh 0.2.0-rc.2 及以上。",
+    "descriptionEn": "Lets the model compact its own context at a safe point: a compact_now tool built on dsh's public compactRegion() API that works mid-turn, and a context_status tool reporting real token usage against the session's actual context window (needs dsh-token-meter). It also compacts automatically when a todo is marked completed and usage is past safePointRatio (default 0.5). dsh's built-in 80% trigger stays as the backstop. No core changes. Installing runs no scripts and needs no extra step: inside web-profile presets the plugin finds the agent's own compaction service through the preset registry. Requires dsh 0.2.0-rc.2+.",
+    "repo": "https://github.com/JoblessJoe/smart-compaction",
+    "npm": "smart-compaction",
+    "category": "tools",
+    "subcategory": "context"
   }
 ]
