@@ -1650,5 +1650,17 @@
     "repo": "https://github.com/xgxx666/dsh-clear-usage",
     "category": "utility",
     "subcategory": "stats"
+  },
+  {
+    "id": "dsh-restart-anywhere",
+    "name": "原地重启",
+    "nameEn": "Restart Anywhere",
+    "author": "JoblessJoe",
+    "description": "在侧边栏「设置」上方加一个「重启 dsh」按钮。原地重启：以 systemd 服务运行时由 systemd 重启该单元；其他情况下用 process.execve 换成新的 dsh 进程，PID 不变（Windows 或 Node < 22.15 时保留一个转发 Ctrl-C 和退出码的父进程）。因此按设计，启动 dsh 的守护进程、容器或终端无需额外配置。已在 Linux 上实测（systemd、终端、守护进程、转发父进程），Docker、macOS 和 Windows 尚未实机测试。新进程以新的 boot id 响应后页面自动刷新。重启接口经 dsh 自带的 /api 连接层注册，未登录的请求返回 401。零运行时依赖。在桌面应用中按钮隐藏。",
+    "descriptionEn": "Adds a Restart dsh button above Settings in the sidebar. Restarts in place: under a systemd unit it asks systemd to restart the unit; otherwise process.execve swaps in a fresh dsh with the same PID (on Windows or Node < 22.15 a thin parent stays and forwards Ctrl-C and the exit code). By design, whatever started dsh (a supervisor, a container or a terminal) needs no extra config. Verified live on Linux (systemd, terminal, a supervisor, the wrapper path); Docker, macOS and Windows not yet run for real. The page reloads once the new process answers with a new boot id. The restart route is registered through dsh's own /api connection layer, so requests without a login get 401. Zero runtime dependencies; hidden in the desktop app.",
+    "repo": "https://github.com/JoblessJoe/dsh-restart-anywhere",
+    "npm": "dsh-restart-anywhere",
+    "category": "tools",
+    "subcategory": "dev"
   }
 ]
