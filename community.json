@@ -1686,5 +1686,16 @@
     "npm": "@hyzyn/dsh-loglens",
     "category": "tools",
     "subcategory": "dev"
+  },
+  {
+    "id": "dsh-version-guard",
+    "name": "DSH 版本守卫",
+    "nameEn": "DSH Version Guard",
+    "author": "skyjjgw",
+    "description": "记录插件版本与 profile 配置快照；插件冲突导致 DSH 无法启动时，通过独立恢复页回退到已知可用配置。支持单插件停用、恢复启用、版本锁定和显式依赖同步，不回退 DSH 应用本身。",
+    "descriptionEn": "Snapshots plugin versions and profile configuration. An independent recovery page restores a known-good configuration when plugin conflicts prevent DSH from starting. Supports disabling and re-enabling plugins, version pinning, and explicit dependency synchronization; it does not roll back the DSH application.",
+    "repo": "https://github.com/skyjjgw/dsh-version-guard",
+    "category": "tools",
+    "subcategory": "dev"
   }
 ]
