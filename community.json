@@ -1686,5 +1686,17 @@
     "npm": "@hyzyn/dsh-loglens",
     "category": "tools",
     "subcategory": "dev"
+  },
+  {
+    "id": "client-resume-button",
+    "name": "断点续跑按钮",
+    "nameEn": "Resume Button",
+    "author": "ddy-007",
+    "description": "在输入框加一个「继续」按钮：上一轮被用户中止、崩溃或报错结束后，输入框为空时按钮出现，点一下就发出一条续跑提示，让模型接着把那一轮做完。按钮位于模型选择器左侧，开始输入或添加附件时收窄隐藏，清空后展开回来。不恢复中断时的半截输出——那部分内容从未落盘，插件是新开一轮 turn 重做。",
+    "descriptionEn": "Adds a Continue button to the composer: after a turn ends aborted (user pressed stop), interrupted (crash) or errored, the button appears while the composer is empty, and one click sends a continuation notice so the model picks that turn back up. It sits left of the model selector and collapses while you type or attach a file. It does not restore the interrupted output - that partial content was never persisted, so the plugin starts a new turn instead.",
+    "repo": "https://github.com/ddy-007/dsh-client-resume-button",
+    "npm": "client-resume-button",
+    "category": "ui",
+    "subcategory": "chat"
   }
 ]
