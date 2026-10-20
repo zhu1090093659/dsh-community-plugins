@@ -1652,6 +1652,28 @@
     "subcategory": "stats"
   },
   {
+    "id": "dsh-skill-install",
+    "name": "技能安装",
+    "nameEn": "Skill Install",
+    "author": "Joey-K-tsubame",
+    "description": "从 GitHub 仓库搜索并安装 SKILL.md 技能：装到全局 / 当前项目 / 自定义目录，与内置 skill-filesystem 联动，装完即时生效；安装会把第三方仓库的 SKILL.md 原样写入技能根目录，只装信任的仓库。",
+    "descriptionEn": "Search GitHub repositories and install their SKILL.md skills into the global, project, or a custom directory; hot-loads through the built-in skill-filesystem; installation copies a third-party repository's SKILL.md verbatim into a skills root — only install repositories you trust.",
+    "repo": "https://github.com/Joey-K-tsubame/dsh-skill-install",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
+    "id": "dsh-delete-archived",
+    "name": "删除已归档对话",
+    "nameEn": "Delete Archived Conversations",
+    "author": "Joey-K-tsubame",
+    "description": "为已归档会话在侧边栏增加「删除对话」入口，并提供模型可调用的 delete_archived_conversation 工具：该工具无二次确认即可执行、删除不可恢复。清单与删除能力与 dsh-archived-chats 重叠，增量就是这两个入口；与 dsh-delete-session 的区别是本插件只处理已归档会话，侧边栏走两步确认，而工具调用没有确认。",
+    "descriptionEn": "Adds a sidebar delete entry for archived conversations plus the model-callable delete_archived_conversation tool, which runs without a second confirmation and is irreversible. Listing and removal overlap dsh-archived-chats - the increment is those two entry points; unlike dsh-delete-session it only touches archived sessions, with a two-step confirm in the sidebar and no confirmation for the tool call.",
+    "repo": "https://github.com/Joey-K-tsubame/dsh-delete-archived",
+    "category": "utility",
+    "subcategory": "cleanup"
+  },
+  {
     "id": "dsh-vitals",
     "name": "硬件监视",
     "nameEn": "Vitals",
