@@ -1686,5 +1686,17 @@
     "npm": "@hyzyn/dsh-loglens",
     "category": "tools",
     "subcategory": "dev"
+  },
+  {
+    "id": "dsh-connect-minimaxcode",
+    "name": "MiniMax Code 模型接入",
+    "nameEn": "MiniMax Code Model Connect",
+    "author": "JeffTsuiCUG",
+    "description": "把本机 MiniMax Code 桌面 App（国内版）的模型接入 DSH，零配置、无需 API Key。前置：本机已安装并登录 MiniMax Code 桌面 App（国内版）——否则模型列表只回落为两个内置占位条目、实际调不通；也可不装桌面 App，在插件页面发起 OAuth 设备码登录，在浏览器里用自己的 MiniMax 账号确认。上游是标准 Anthropic Messages 协议，直接复用 DSH 自带的 provider，工具调用、推理块与上下文压缩由 DSH 托管；模型目录从上游实时拉取，模型增减不需要更新插件。界面在输入框工具行（模型选择器旁）显示一枚余额胶囊，仅在选中本插件的模型时出现（切到其他反代插件的模型即隐藏）；插件页面另有余额卡片、本机消耗折算的等效金额、7 天内/30 天内到期的积分批次与每日签到。凭据写入：为续期已过期的桌面 App 登录态，插件会按该 App 自己的格式原子写回其 auth 文件（不改 generation）；用插件自己登录的，凭据只写插件自己的 ~/.dsh/.minimaxcode-auth.json，不碰 App 目录。非官方插件，与 MiniMax、DeepSeek 均无关联；依赖 MiniMax 客户端的非公开接口，客户端更新后接口可能变更导致失效；仅供学习与研究使用。",
+    "descriptionEn": "Brings the models of the MiniMax Code desktop app (China region) into DSH, zero configuration, no API key. Prerequisite: the MiniMax Code desktop app (China region) installed and signed in on this machine — without a sign-in the model list falls back to two built-in placeholders that cannot actually be called; or skip the app entirely, since the plugin page offers an OAuth device-code sign-in you confirm with your own MiniMax account in a browser. The upstream speaks the standard Anthropic Messages protocol, so DSH's own provider is reused and tool calls, reasoning blocks and context compaction stay Harness-owned; the model catalog is pulled live, so upstream model changes need no plugin update. The interface shows a balance pill in the composer tool row beside the model picker, drawn only while this plugin's models are selected (it hides when another connector's model is selected); the plugin page adds a balance card, this machine's consumption converted to an equivalent cost, the credit batches expiring within 7 and 30 days, and the daily check-in. Credential writes: to renew an expired desktop-app sign-in the plugin writes the app's auth file back atomically, in the app's own format, without changing its generation counter; when signed in through the plugin itself the credential is stored only in the plugin's own ~/.dsh/.minimaxcode-auth.json, never in the app's directory. Unofficial plugin, not affiliated with MiniMax or DeepSeek; it depends on the MiniMax client's non-public interfaces, which a client update may change and break. For learning and research only.",
+    "repo": "https://github.com/JeffTsuiCUG/dsh-connect-minimaxcode",
+    "npm": "dsh-connect-minimaxcode",
+    "category": "integration",
+    "subcategory": "external-ai"
   }
 ]
