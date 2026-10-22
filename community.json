@@ -1686,5 +1686,17 @@
     "npm": "@hyzyn/dsh-loglens",
     "category": "tools",
     "subcategory": "dev"
+  },
+  {
+    "id": "dsh-model-everything",
+    "name": "设计与代码的建模审查",
+    "nameEn": "Design & Code Modeling Review",
+    "author": "AmethystLuna",
+    "description": "把设计、计划或文档里的声称抽成模型再判定：UML 图渲染、读取与审查，状态机、协议与数据模型按模型判定，有限词自动机判语言等价与包含并给出最短反例，迁移检查覆盖与回滚对称，并发声称挖掘后分派给能判定它的工具，依赖图审查，报告对比。同作者的 dsh-logicprobe 已由本插件取代：新工作从这里开始，旧插件只为既有安装保留。当前版本 0.3.0（2026-10-23），尚无社区使用数据。",
+    "descriptionEn": "Turns what a design, plan or document claims into a model and decides it: UML diagrams rendered, read and reviewed; state machines, protocols and data models checked as models; finite-word automata deciding language equivalence and inclusion with the shortest witness; migrations checked for coverage and rollback symmetry; concurrency claims mined and routed to the checker that can decide them; dependency graphs audited; reports diffed. It supersedes the same author's dsh-logicprobe: start new work here, and the older plugin stays only for existing installs. Current release 0.3.0 (2026-10-23); no community usage data yet.",
+    "repo": "https://github.com/AmethystLuna/dsh-model-everything",
+    "npm": "dsh-model-everything",
+    "category": "tools",
+    "subcategory": "dev"
   }
 ]
