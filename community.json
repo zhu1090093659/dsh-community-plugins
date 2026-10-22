@@ -1686,5 +1686,16 @@
     "npm": "@hyzyn/dsh-loglens",
     "category": "tools",
     "subcategory": "dev"
+  },
+  {
+    "id": "dsh-mobile-ui",
+    "name": "移动端外壳",
+    "nameEn": "Mobile Web UI",
+    "author": "kaijia323",
+    "description": "为 DSH Web 提供手机端外壳：抽屉式导航、触控尺寸控件、安全区适配和全宽对话区，桌面端行为保持不变。",
+    "descriptionEn": "Mobile shell for DSH Web: drawer navigation, touch-sized controls, safe-area support and a full-width conversation, with no desktop changes.",
+    "repo": "https://github.com/kaijia323/dsh-mobile-ui",
+    "category": "ui",
+    "subcategory": "panel"
   }
 ]
