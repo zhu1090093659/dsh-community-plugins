@@ -1686,5 +1686,16 @@
     "npm": "@hyzyn/dsh-loglens",
     "category": "tools",
     "subcategory": "dev"
+  },
+  {
+    "id": "dsh-display-polish",
+    "name": "用量与用时显示优化",
+    "nameEn": "Usage & Timing Display Polish",
+    "author": "L-jh40",
+    "description": "对官方用量 pill 做金额与用时精修：对话栏下方那行把模型 / 工具 / 等待用时统一显示到分钟（防一行溢出）、缓存命中率两位小数；每轮在官方时间戳左边显示「本轮 X 元」（4 位小数）与「用时」，并隐藏官方那枚重复的用量 pill。花费弹层给出提供方 / 模型、缓存命中率、各分桶 token 与金额（推理单列）、工具调用按工具与按步明细，末尾汇总 run_code 内部各子工具的调用次数与分摊金额；弹层固定高度、底边贴触发 pill 上方。兼容 DSH 0.2.1（dock 拆成 activity / usage 两个条目）与 0.2.0 及更早（单 stats 条目）。",
+    "descriptionEn": "Polishes the official usage pills for money and time precision: the composer line unifies model / tool / wait durations to whole minutes (keeping the crowded row from overflowing) and shows the cache-hit rate to two decimals; each turn gains a cost pill (4 decimals) and a duration pill left of the official timestamp, with the duplicate official usage pill hidden. The cost popover shows provider / model, cache-hit rate, per-bucket tokens and money (reasoning as a sub-line), tool calls per tool and per step, and ends with a sub-tool summary counting every tool executed inside run_code together with its share of the step cost; the popover keeps a fixed height anchored just above the trigger pill. Works on DSH 0.2.1 (dock split into the activity / usage entries) and on 0.2.0 or older (single stats entry).",
+    "repo": "https://github.com/L-jh40/dsh-display-polish",
+    "category": "ui",
+    "subcategory": "chat"
   }
 ]
