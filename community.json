@@ -1686,5 +1686,17 @@
     "npm": "@hyzyn/dsh-loglens",
     "category": "tools",
     "subcategory": "dev"
+  },
+  {
+    "id": "dsh-later",
+    "name": "稍后发送与定时提醒",
+    "nameEn": "Scheduled Send & Reminders",
+    "author": "WuJiaoJue",
+    "description": "到点把话送进当前会话。/later <时间> <内容> 把你正在输入框里打的那句话留到指定时间，以你本人身份发出（普通用户气泡），输入框里贴的图片和附件一并带上；定时面板与 /schedule 到点则送出一条「定时提醒 · HH:MM · 内容」提醒行，不冒充你亲口说的。时间写法认 +30m、10分钟后、明天9点、15:32，一条命令还能展开成多条（+1h*3、9:00+1d+1d）。输入框上方的待发送 dock 可逐条取消或行内改内容，侧栏像素时钟按状态染色（紫=定时中，琥珀=5 分钟内触发，红=已到期）。任务存在服务端，关掉网页或换设备都准时到达；按回车时 /schedule 那行命令本身立刻发出，被推迟的只有提醒。",
+    "descriptionEn": "Delivers a message into the current session when the time comes. /later <time> <text> takes what you are typing and sends it later as you, in a normal user bubble, with the images and attachments in the composer; the schedule panel and /schedule post a Reminder · HH:MM · text row instead, so nothing is framed as your own words. Times accept +30m, 10分钟后, 明天9点 and 15:32, and one command can expand into a series (+1h*3, 9:00+1d+1d). The pending dock above the composer cancels or edits each item inline, and the session sidebar shows a pixel clock coloured by state (purple = scheduled, amber = fires within 5 minutes, red = overdue). Tasks persist server-side, so they arrive with the page closed and on another device. Pressing Enter on a /schedule line sends that command immediately: only the reminder is deferred.",
+    "repo": "https://github.com/dsh-plugin-collection/dsh-later",
+    "npm": "dsh-later",
+    "category": "utility",
+    "subcategory": "notify"
   }
 ]
