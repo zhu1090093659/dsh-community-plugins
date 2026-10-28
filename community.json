@@ -1686,5 +1686,17 @@
     "npm": "@hyzyn/dsh-loglens",
     "category": "tools",
     "subcategory": "dev"
+  },
+  {
+    "id": "dsh-mcp-tools",
+    "name": "MCP 工具管理器",
+    "nameEn": "MCP Tool Manager",
+    "author": "hxlog",
+    "description": "DeepSeek Harness 设置内的 MCP 服务器与工具管理器：添加 streamable-http / stdio 服务器、Postman 式逐行请求头、连通性测试、逐工具开关（停用的工具不会注册进模型）。",
+    "descriptionEn": "MCP server and tool manager inside DeepSeek Harness Settings: add streamable-http or stdio servers, fill header rows Postman-style, test connectivity, and switch individual tools off so disabled tools never reach the model.",
+    "repo": "https://github.com/hxlog/dsh-mcp-tools",
+    "npm": "dsh-mcp-tools",
+    "category": "tools",
+    "subcategory": "dev"
   }
 ]
