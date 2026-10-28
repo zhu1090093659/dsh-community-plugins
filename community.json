@@ -1686,5 +1686,16 @@
     "npm": "@hyzyn/dsh-loglens",
     "category": "tools",
     "subcategory": "dev"
+  },
+  {
+    "id": "dsh-patch-delivery",
+    "name": "DSH 补丁交付",
+    "nameEn": "DSH Patch Delivery",
+    "author": "1976298235",
+    "description": "将 DSH 子代理代码任务放入独立 Git worktree，程序收集补丁、文件哈希和实际测试日志；审阅后显式接纳，检查原仓库基线与改动。任务和回执默认持久化，不盲目重发未知提交。需要 Git 和所有者预配置测试命令；worktree 不是系统沙箱。",
+    "descriptionEn": "DSH subagent code delivery in detached Git worktrees, with binary patches, file hashes, real test evidence, durable receipts, and explicit adoption against a clean unchanged baseline. Requires Git and owner-configured verification commands. Worktrees are not security sandboxes.",
+    "repo": "https://github.com/1976298235/dsh-patch-delivery",
+    "category": "integration",
+    "subcategory": "bridge"
   }
 ]
