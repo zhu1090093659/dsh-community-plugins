@@ -1686,5 +1686,17 @@
     "npm": "@hyzyn/dsh-loglens",
     "category": "tools",
     "subcategory": "dev"
+  },
+  {
+    "id": "dsh-runninghub-plugin",
+    "name": "RunningHub 工作流",
+    "nameEn": "RunningHub Workflows",
+    "author": "achenjins",
+    "description": "调用你在 RunningHub 上保存的 ComfyUI 工作流生成图片、视频和音频。提供 runninghub_search（列出可用操作）与 runninghub_call（执行操作）两个模型工具：把工作流链接或 ID 发给 AI 即可辅助配置输入节点，也可在「插件」→「dsh-runninghub-plugin」配置面板中手动导入和编辑；任务可在后台运行，完成后通知并把结果带回对话。支持多个 RunningHub API Key 按国内站 / 海外站分池管理，余额不足时换用下一把 Key，可查询账户余额与排队情况，并内置可按工作流读写的提示词规范文档。需要自备 RunningHub API Key，运行工作流会消耗账户的 RH 币。",
+    "descriptionEn": "Runs the ComfyUI workflows you saved on RunningHub to generate images, video and audio. Two model tools, runninghub_search (lists the available actions) and runninghub_call (runs one), let the AI configure a workflow's input nodes from its link or ID; workflows can also be imported and edited by hand in the Plugins -> dsh-runninghub-plugin settings panel. Tasks can run in the background and report back with the results when they finish. Multiple RunningHub API keys are pooled separately for the China and international sites, a key that runs out of balance hands over to the next one, account balance and queue can be queried, and per-workflow prompt guideline docs can be read and edited. Requires your own RunningHub API key; running a workflow spends RH coins from that account.",
+    "repo": "https://github.com/achenjins/dsh-runninghub-plugin",
+    "npm": "dsh-runninghub-plugin",
+    "category": "integration",
+    "subcategory": "external-ai"
   }
 ]
