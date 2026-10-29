@@ -1743,5 +1743,17 @@
     "npm": "dsh-connect-minimaxcode",
     "category": "integration",
     "subcategory": "external-ai"
+  },
+  {
+    "id": "dsh-model-picker-2level",
+    "name": "两级模型选择器",
+    "nameEn": "Two-Level Model Picker",
+    "author": "weiYe-exployer",
+    "description": "替换 Harness 输入框的模型选择器，先选供应商再选模型；支持全局与供应商内模糊搜索、可用思考强度设置，以及方向键、Enter 和 Esc 操作。复用宿主的模型目录与会话选择服务，不新增模型供应商；思考强度偏好仅在当前应用运行期间记忆。已在 DSH 0.2.1-rc.3 验证，子代理会话中禁用模型按钮。",
+    "descriptionEn": "Replaces the Harness composer model picker with a provider list followed by a model list, with global and provider-scoped fuzzy search, supported reasoning-effort selection, and arrow/Enter/Esc navigation. Uses the host model catalog and session-selection service without adding providers; effort preferences are remembered only within the running application. Tested on DSH 0.2.1-rc.3; the model button is disabled in subagent sessions.",
+    "repo": "https://github.com/weiYe-exployer/dsh-model-picker-2level",
+    "npm": "@codewei823/dsh-model-picker-2level",
+    "category": "ui",
+    "subcategory": "chat"
   }
 ]
