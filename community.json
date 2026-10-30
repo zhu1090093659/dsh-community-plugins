@@ -1744,4 +1744,16 @@
     "category": "integration",
     "subcategory": "external-ai"
   }
+  ,  {
+    "id": "dsh-assistant-photographer",
+    "name": "助理摄影师",
+    "nameEn": "Assistant Photographer",
+    "author": "kingxlyoung",
+    "description": "专业摄影镜头分镜推敲、通用多角色视觉基因锁定与本机/远程 ComfyUI 直连生图插件。",
+    "descriptionEn": "Professional photography shot planning, consistent character visual DNA locking, and direct ComfyUI image generation.",
+    "repo": "https://github.com/kingxlyoung/dsh-assistant-photographer",
+    "npm": "dsh-assistant-photographer",
+    "category": "tools",
+    "subcategory": "image"
+  }
 ]
