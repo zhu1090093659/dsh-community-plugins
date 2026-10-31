@@ -1743,5 +1743,17 @@
     "npm": "dsh-connect-minimaxcode",
     "category": "integration",
     "subcategory": "external-ai"
+  },
+  {
+    "id": "dsh-novel-fish",
+    "name": "小说摸鱼",
+    "nameEn": "Novel Fish",
+    "author": "gongfpp",
+    "description": "仅适配 DSH Web 0.2.1-rc.2。主动展开选中的原生聊天区域时，在真实内容下方追加本地 EPUB、TXT、Markdown 小说片段；按书保存进度，不将小说发送给模型。无独立阅读页，EPUB 只显示文字。",
+    "descriptionEn": "For DSH Web 0.2.1-rc.2 only. Explicitly expanding selected native chat regions appends local EPUB, TXT and Markdown novel passages below real content. Per-book progress; no novel text sent to the model, no standalone reader, text-only EPUB.",
+    "repo": "https://github.com/gongfpp/dsh-novel-fish",
+    "npm": "@gongfpp/dsh-novel-fish",
+    "category": "ui",
+    "subcategory": "render"
   }
 ]
