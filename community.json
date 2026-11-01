@@ -1720,8 +1720,8 @@
     "npm": "client-resume-button",
     "category": "ui",
     "subcategory": "chat"
-  }
-,  {
+  },
+  {
     "id": "dsh-version-guard",
     "name": "DSH 版本守卫",
     "nameEn": "DSH Version Guard",
@@ -1731,8 +1731,8 @@
     "repo": "https://github.com/skyjjgw/dsh-version-guard",
     "category": "tools",
     "subcategory": "dev"
-  }
-,  {
+  },
+  {
     "id": "dsh-connect-minimaxcode",
     "name": "MiniMax Code 模型接入",
     "nameEn": "MiniMax Code Model Connect",
@@ -1743,5 +1743,17 @@
     "npm": "dsh-connect-minimaxcode",
     "category": "integration",
     "subcategory": "external-ai"
+  },
+  {
+    "id": "dsh-rfiles",
+    "name": "远程文件传输",
+    "nameEn": "Remote File Transfer",
+    "author": "Aperops",
+    "description": "为 DSH Web GUI 的配对远程页提供分块上传（带进度与断点续传）、发送给 Agent、工作区文件下载与会话日志 ZIP 导出；桌面本地连接同样可用。",
+    "descriptionEn": "Adds chunked uploads with progress and resume, send-to-Agent, workspace file downloads and session-log ZIP export to the paired remote page of the DSH Web GUI; also works on a plain desktop connection.",
+    "repo": "https://github.com/Aperops/dsh-rfiles",
+    "category": "integration",
+    "subcategory": "remote",
+    "npm": "dsh-rfiles"
   }
 ]
