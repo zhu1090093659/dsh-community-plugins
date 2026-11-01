@@ -1743,5 +1743,16 @@
     "npm": "dsh-connect-minimaxcode",
     "category": "integration",
     "subcategory": "external-ai"
+  },
+  {
+    "id": "dsh-browser-view",
+    "name": "实时浏览器视图",
+    "nameEn": "Live Browser View",
+    "author": "jimorsm",
+    "description": "在右侧边栏开一个由 agent 驱动的实时浏览器标签页：宿主半区用 CDP 掌管一个独立 Chromium，agent 通过 browser_* 工具导航、点击、输入、执行脚本与截图，人可以在同一画面上直接操作（指针、键盘、滚轮回传），画面走 WebRTC DataChannel 二进制帧并在不可用时自动回退 WebSocket。",
+    "descriptionEn": "A live browser tab in the right sidebar driven by the agent: the host half owns a dedicated Chromium over CDP and exposes browser_* tools for navigation, clicking, typing, script execution and screenshots, while the human can drive the same surface by hand (pointer, keyboard and wheel relayed back). Frames travel over a WebRTC DataChannel and fall back to the WebSocket stream automatically.",
+    "repo": "https://github.com/jimorsm/dsh-browser-view",
+    "category": "ui",
+    "subcategory": "panel"
   }
 ]
