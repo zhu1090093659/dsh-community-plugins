@@ -1401,5 +1401,17 @@
     "npm": "dsh-oh-my-claude",
     "category": "integration",
     "subcategory": "external-ai"
+  },
+  {
+    "id": "dsh-jump",
+    "name": "跳跃导航",
+    "nameEn": "dsh-jump",
+    "author": "Lionad-Morotar",
+    "description": "点击与聚焦两组组合键：按下后 DSH Web 界面里每个可见的可交互目标都会浮出一个字母标签，敲标签即可点击或聚焦它，类似 Vimium；标签长度按候选数量每轮推导，Esc 退出。聚焦模式默认关闭，需在设置页录制和弦后启用，点击组合键也可在设置中修改。",
+    "descriptionEn": "Two chord modes, click and focus: press a chord to surface a letter label over every visible interactive target in the DSH web GUI, then type the label to click or focus it, Vimium-style; label length is derived per round from the candidate count and Escape exits. Focus mode ships disabled until you record a chord in settings, and the click chord is remappable there too.",
+    "repo": "https://github.com/Lionad-Morotar/dsh-jump",
+    "npm": "dsh-jump",
+    "category": "ui",
+    "subcategory": "panel"
   }
 ]
