@@ -1779,5 +1779,17 @@
     "npm": "dsh-widget-board",
     "category": "ui",
     "subcategory": "panel"
+  },
+  {
+    "id": "dsh-plugin-upgrader",
+    "name": "插件版本升级",
+    "nameEn": "Plugin Version Upgrader",
+    "author": "zuwenyin",
+    "description": "在插件页新增「版本」标签：一键与多选升级都走插件管理器自己的安装路径，换版本时插件不被卸载、启用状态不丢；每一步的用时、阶段、原始 pnpm 日志与取消；完整已发布版本历史与一键回滚；镜像落后于上游时列出缺口；安装源可自己选（官方源 / 大陆镜像 / 私有源，选择写进 profile）。",
+    "descriptionEn": "Adds a Versions tab to the Plugins page: one-click and multi-select upgrades through the plugin manager's own install path, so switching versions never uninstalls the bundle or loses its enabled state; per-step timing, phase, the raw pnpm log and cancel; the full published version history with one-click rollback; the versions a configured mirror is missing; and a user-selectable npm registry saved in the profile.",
+    "repo": "https://github.com/zuwenyin/dsh-plugin-upgrader",
+    "npm": "dsh-plugin-upgrader",
+    "category": "tools",
+    "subcategory": "dev"
   }
 ]
