@@ -1779,5 +1779,17 @@
     "npm": "dsh-widget-board",
     "category": "ui",
     "subcategory": "panel"
+  },
+  {
+    "id": "dsh-multithread-downloader",
+    "name": "多线程下载器",
+    "nameEn": "Multithread Downloader",
+    "author": "NONON01",
+    "description": "在 DSH 内用 HTTP Range 分片并发下载文件：侧边栏面板、对话进度条、断点续传、自定义请求头、镜像回退、SHA-256 校验、限速与 Agent 工具。",
+    "descriptionEn": "Parallel HTTP Range downloads inside DSH with a sidebar panel, composer progress strip, resume, custom headers, mirrors, SHA-256 checks, rate limiting and an agent tool.",
+    "repo": "https://github.com/NONON01/dsh-multithread-downloader",
+    "npm": "dsh-multithread-downloader",
+    "category": "utility",
+    "subcategory": "net"
   }
 ]
