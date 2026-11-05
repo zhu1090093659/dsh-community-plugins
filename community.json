@@ -1779,5 +1779,17 @@
     "npm": "dsh-widget-board",
     "category": "ui",
     "subcategory": "panel"
+  },
+  {
+    "id": "dsh-workspace-tints",
+    "name": "工作区色阶",
+    "nameEn": "Workspace Tints",
+    "author": "Veduis",
+    "description": "为侧栏中的每个工作区从同一条由暖到冷的“白瓷”色阶取一个固定色调，轻染其标题行，并在其会话旁画一条细轨；工作区名作为分组标题，会话缩进其下；已完成但未读的会话整行染绿。强度可调，关闭染色后层级与完成提示仍在。",
+    "descriptionEn": "Gives every Workspace in the sidebar a stable tint from one warm-to-cool ramp of whites, washing its header and drawing a thin rail beside its Sessions. Workspace names become section headings with their Sessions indented beneath, and a Session that finished unread turns its whole row green. Intensity is adjustable, and the hierarchy plus the finished indicator survive with tints off.",
+    "repo": "https://github.com/Veduis/dsh-workspace-tints",
+    "npm": "dsh-workspace-tints",
+    "category": "ui",
+    "subcategory": "panel"
   }
 ]
