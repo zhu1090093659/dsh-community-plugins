@@ -1211,5 +1211,17 @@
     "npm": "dsh-character-cards",
     "category": "ui",
     "subcategory": "chat"
+  },
+  {
+    "id": "dsh-jump",
+    "name": "跳跃导航",
+    "nameEn": "dsh-jump",
+    "author": "Lionad-Morotar",
+    "description": "组合键分点击（默认 Cmd/Ctrl+H）与聚焦（默认 Cmd/Ctrl+U）两组，按下后 DSH Web 界面里每个可见的可交互目标都会浮出一个字母标签，敲标签即可点击或聚焦它，类似 Vimium；标签长度按候选数量每轮推导，Esc 退出，两组组合键都可在设置中修改。",
+    "descriptionEn": "Press a click chord (default Cmd/Ctrl+H) or focus chord (default Cmd/Ctrl+U) to surface a letter label over every visible interactive target in the DSH web GUI, then type the label to click or focus it, Vimium-style. Label length is derived per round from the candidate count, Escape exits, and both chords are remappable in settings.",
+    "repo": "https://github.com/Lionad-Morotar/dsh-jump",
+    "npm": "dsh-jump",
+    "category": "ui",
+    "subcategory": "panel"
   }
 ]
