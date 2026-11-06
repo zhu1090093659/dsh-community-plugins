@@ -1223,5 +1223,17 @@
     "npm": "dsh-power-menu-mac",
     "category": "ui",
     "subcategory": "panel"
+  },
+  {
+    "id": "dsh-cost-voice",
+    "name": "每轮扣款语音播报",
+    "nameEn": "Turn Cost Voice",
+    "author": "gongfpp",
+    "description": "在 DSH Web 回合结束后用随包本地音频播报人民币估算费用，可优先读取 dsh-cost-meter 的每轮费用，也可按用量和单价估算。提供支付宝与大白饭两种音色、音量、静音时段和最低播报金额设置；不调用 TTS 服务，金额不代替真实账单。需先在设置页试听以解锁浏览器音频，页面关闭不播报，后台可能延迟。",
+    "descriptionEn": "Announces estimated turn costs in CNY in DSH Web using bundled local audio. Can prefer per-turn costs from dsh-cost-meter or estimate from usage and model prices. Offers Alipay and Dabaifan voices, volume, quiet hours and a minimum amount. No TTS service; estimates are not billing records. Preview once in settings to unlock browser audio; requires an open page and may be delayed in background tabs.",
+    "repo": "https://github.com/gongfpp/dsh-cost-voice",
+    "npm": "dsh-cost-voice",
+    "category": "utility",
+    "subcategory": "notify"
   }
 ]
