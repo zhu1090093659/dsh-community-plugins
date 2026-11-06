@@ -1223,5 +1223,17 @@
     "npm": "dsh-power-menu-mac",
     "category": "ui",
     "subcategory": "panel"
+  },
+  {
+    "id": "dsh-plugin-upgrader",
+    "name": "插件版本升级",
+    "nameEn": "Plugin Version Upgrader",
+    "author": "zuwenyin",
+    "description": "在插件页新增「版本」标签：一键与多选升级都走插件管理器自己的安装路径，默认就地替换依赖、不卸载插件、启用状态不丢（profile 改不了时才退回先卸载再装，日志写明走的是哪条）；每一步的用时、阶段、原始 pnpm 日志与取消；已发布版本列表（最多列最新 80 个）可一键切换，装不了的版本按你正在跑的 DSH 标出来并禁用；镜像落后于上游时列出缺口；安装源可自己选（官方源 / 大陆镜像 / 私有源，选择写进 profile）。",
+    "descriptionEn": "Adds a Versions tab to the Plugins page: on-demand one-click and multi-select upgrades run through the plugin manager's own install path and replace the dependency in place by default, so the bundle stays loaded and keeps its enabled state (only when the profile manifest cannot be rewritten does it fall back to uninstall-then-install, and the log says which path was taken); per-step elapsed time, phase, the raw pnpm log and cancel; the published version list (newest 80 shown) with one-click switching, where a version the running DSH cannot install is flagged and its button disabled; the versions a configured mirror is missing; and a user-selectable npm registry saved in the profile.",
+    "repo": "https://github.com/zuwenyin/dsh-plugin-upgrader",
+    "npm": "dsh-plugin-upgrader",
+    "category": "tools",
+    "subcategory": "dev"
   }
 ]
