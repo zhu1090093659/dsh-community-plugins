@@ -1223,5 +1223,17 @@
     "npm": "dsh-power-menu-mac",
     "category": "ui",
     "subcategory": "panel"
+  },
+  {
+    "id": "slumberpavilion",
+    "name": "沉眠阁",
+    "nameEn": "Slumber Pavilion",
+    "author": "AngleNaris",
+    "description": "极简免配置，无独立设置界面。自动搬移是设计行为：插件加载约 15 秒后首次扫描，后台按 20 秒间隔检查，将 ~/.dsh（或 DSH_HOME）中已归档会话的日志与投影记录移至 ~/DSH-Archive，保留还原清单。提供归档、读取、还原和删除工具；archive_delete 会永久删除归档内容，不可恢复且工具调用没有二次确认，可先用 dryRun 预览。声明宿主范围 >=0.2.1-rc.2 <0.4.0-0，桌面实测仅 DSH 0.2.1-rc.3；Node.js >=22.15.0。",
+    "descriptionEn": "Minimal and configuration-free, with no dedicated settings UI. Automatic movement is by design: the first scan runs about 15 seconds after loading, with background checks on a 20-second interval, moving archived session logs and projections from ~/.dsh (or DSH_HOME) to ~/DSH-Archive and keeping a restore manifest. Includes archive, read, restore and delete tools. archive_delete permanently deletes archived content, is irreversible and has no second confirmation; dryRun previews the target. Declared host range: >=0.2.1-rc.2 <0.4.0-0; desktop testing recorded only on DSH 0.2.1-rc.3. Requires Node.js >=22.15.0.",
+    "repo": "https://github.com/AngleNaris/slumberpavilion",
+    "npm": "slumberpavilion",
+    "category": "utility",
+    "subcategory": "cleanup"
   }
 ]
