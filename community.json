@@ -1199,8 +1199,8 @@
     "npm": "dsh-tutorloop",
     "category": "knowledge",
     "subcategory": "qa"
-  }
-,  {
+  },
+  {
     "id": "dsh-character-cards",
     "name": "角色卡",
     "nameEn": "Character Cards",
@@ -1211,5 +1211,17 @@
     "npm": "dsh-character-cards",
     "category": "ui",
     "subcategory": "chat"
+  },
+  {
+    "id": "dsh-skills-tools",
+    "name": "Skills 管理器",
+    "nameEn": "Skills Manager",
+    "author": "hxlog",
+    "description": "在 DSH 设置中从 Git 仓库导入 Agent Skills，按仓库分组管理，逐项启用或停用，展开查看 SKILL.md 正文；停用的技能不会注册进模型，仓库以只读快照保存。",
+    "descriptionEn": "Import Agent Skills from Git repositories into DSH settings, group them by repository, toggle each skill, and expand SKILL.md content; disabled skills are not registered with the model and repositories are kept as read-only snapshots.",
+    "repo": "https://github.com/hxlog/dsh-skills-tools",
+    "npm": "dsh-skills-tools",
+    "category": "tools",
+    "subcategory": "dev"
   }
 ]
