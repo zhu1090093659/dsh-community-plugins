@@ -1199,8 +1199,8 @@
     "npm": "dsh-tutorloop",
     "category": "knowledge",
     "subcategory": "qa"
-  }
-,  {
+  },
+  {
     "id": "dsh-character-cards",
     "name": "角色卡",
     "nameEn": "Character Cards",
@@ -1223,5 +1223,17 @@
     "npm": "dsh-power-menu-mac",
     "category": "ui",
     "subcategory": "panel"
+  },
+  {
+    "id": "pocket-harness",
+    "name": "口袋鲸灵",
+    "nameEn": "Pocket Harness",
+    "author": "regrevia",
+    "description": "桌面宠物与手机端联动插件：桌宠在会话页里按需打开，Android App 配对后可在手机上远程查看 DSH 会话列表、翻历史、发送图片与语音、把任务派发到同一宿主会话；会话、派发目标与转录都复用宿主状态，手机与桌面保持一致。配对链接等同宿主全部权限，只在自己的设备上使用；App 目前只有 Android 自签名包、需要侧载，iOS 不支持。",
+    "descriptionEn": "Desktop pet plus phone companion for DSH: the pet opens on demand inside a session page, and the paired Android app browses the host session list, reads history, sends photos and voice notes, and dispatches turns into the same host sessions, so phone and desktop stay on one state. A pairing link grants full access to the host, so keep it on your own devices; the app ships only as a self-signed Android build that must be sideloaded, and iOS is not supported.",
+    "repo": "https://github.com/regrevia/pocket-harness",
+    "npm": "pocket-harness",
+    "category": "integration",
+    "subcategory": "remote"
   }
 ]
