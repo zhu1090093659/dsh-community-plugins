@@ -1223,5 +1223,17 @@
     "npm": "dsh-power-menu-mac",
     "category": "ui",
     "subcategory": "panel"
+  },
+  {
+    "id": "session-chains",
+    "name": "交接鏈",
+    "nameEn": "Session Chains",
+    "author": "HildebrandYu",
+    "description": "把互相交接的對話自動聚成一條鏈：從交接提示詞判定、場次編號、就地改名、搜尋與拖拉多選歸鏈、置頂與封存、本場上下文與請求數讀數，以及可調的交接門檻（達到可自動交接：寫提示詞→開新對話→貼上→切換）。",
+    "descriptionEn": "Groups the sessions that hand off to each other into one chain in the DSH sidebar: chain detection from the handoff prompt, per-session numbering, in-place rename, search with drag and multi-select re-chaining, pinning and archiving, a per-session context and request readout, and configurable handoff thresholds that can run the whole handoff (write the next prompt, open a new session, paste it, switch over).",
+    "repo": "https://github.com/HildebrandYu/dsh-session-chains",
+    "npm": "session-chains",
+    "category": "tools",
+    "subcategory": "context"
   }
 ]
