@@ -1247,5 +1247,17 @@
     "npm": "@keenable/dsh-keenable",
     "category": "tools",
     "subcategory": "dev"
+  },
+  {
+    "id": "dsh-free-search",
+    "name": "免费搜索",
+    "nameEn": "Free Search",
+    "author": "DDDMUC",
+    "description": "免费多引擎网络搜索：35 个引擎可选，默认自动回退链实际覆盖 27 个（5 个 HTML SERP 引擎默认不参与，OpenAI / Gemini / Claude 三个按次计费引擎只在显式点名时运行）；支持时间过滤、多源并发、平台搜索、web_fetch 与网页设置面板。启动时会向 cloudflare、ip.sb、ipinfo 探测出口地区来选择默认引擎，查询会发送给所选第三方引擎。安装后会把 profile 的 cordis.patch.yml 中 web.searchProvider 接管为 ddg、web.fetchProvider 接管为 fs-quality-fetch；停用或卸载不会自动还原，需要手动删除 - id: web 下的这两行，否则宿主会报 configured web provider \"ddg\" is not registered。与其它设置 searchProvider 的搜索插件互斥，最后生效的一层决定实际搜索。",
+    "descriptionEn": "Free multi-engine web search: 35 engines available, with 27 actually covered by the default auto-fallback chain (the 5 HTML SERP engines stay out by default, and the per-call billed OpenAI / Gemini / Claude engines run only when explicitly named); time filtering, concurrent multi-source search, platform search, web_fetch and a web settings panel. On startup it probes the egress region via cloudflare, ip.sb and ipinfo to pick the default engine, and queries are sent to the selected third-party engines. Installation takes over web.searchProvider as ddg and web.fetchProvider as fs-quality-fetch in the profile's cordis.patch.yml; disabling or uninstalling does not restore them, so remove those two lines under - id: web or the host reports configured web provider \"ddg\" is not registered. It is mutually exclusive with other plugins that set searchProvider; the last applied layer decides the actual search.",
+    "repo": "https://github.com/DDDMUC/dsh-free-search",
+    "npm": "dsh-free-search",
+    "category": "tools",
+    "subcategory": "dev"
   }
 ]
