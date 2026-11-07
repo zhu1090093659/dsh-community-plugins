@@ -1189,12 +1189,60 @@
     "subcategory": "dev"
   },
   {
+    "id": "dsh-tutorloop",
+    "name": "TutorLoop 学习陪练",
+    "nameEn": "TutorLoop Study Companion",
+    "author": "Qinling-Melon-Farmers",
+    "description": "围绕自选资料进行小步练习、证据反馈和 Leitner 间隔复习；18 个教师工具与中英双语学生面板，复用当前 DSH 会话模型，无需另配模型密钥。学习记录按工作区保存在本地，选用材料和作答可发送给宿主模型；主观反馈需核对。需 DSH >=0.2.1-rc.2 <0.3.0-0、Python 3.11+，安装后运行 dsh-tutorloop setup 配置 Python 依赖。内置 6 道自编示例题，真题库需自行导入。",
+    "descriptionEn": "Guided practice over your materials, evidence-grounded feedback and Leitner spaced review, with 18 teacher tools and a Chinese/English student panel. Uses the current DSH session model without a separate model key. Learning records stay local per workspace; selected materials and answers may reach the host model, and subjective feedback needs review. Requires DSH >=0.2.1-rc.2 <0.3.0-0 and Python 3.11+; run dsh-tutorloop setup after installation for Python dependencies. Includes six original example exercises; users must import past-exam question banks themselves.",
+    "repo": "https://github.com/Qinling-Melon-Farmers/dsh-tutorloop",
+    "npm": "dsh-tutorloop",
+    "category": "knowledge",
+    "subcategory": "qa"
+  }
+,  {
+    "id": "dsh-character-cards",
+    "name": "角色卡",
+    "nameEn": "Character Cards",
+    "author": "sildo466",
+    "description": "为每个 DSH 会话绑定可切换的角色卡：身份、语气、代码风格与硬性约束按会话注入，支持默认卡、单会话覆盖、可视化编辑器与单文件导入导出。",
+    "descriptionEn": "Switchable identity cards for DSH sessions: identity, tone, code style, and hard constraints injected per session, with a default card, per-session overrides, a visual editor, and single-file import/export.",
+    "repo": "https://github.com/sildo466/dsh-character-cards",
+    "npm": "dsh-character-cards",
+    "category": "ui",
+    "subcategory": "chat"
+  },
+  {
+    "id": "dsh-power-menu-mac",
+    "name": "电源菜单（macOS）",
+    "nameEn": "Power Menu (macOS)",
+    "author": "DDDMUC",
+    "description": "给 DSH 桌面版（macOS）加一个右上角电源按钮：关闭 DSH / 重启 DSH。重启会把窗口拉回来，并确认新进程真的注册到窗口服务器。接口注册在宿主自带的 web 服务器上，只在本机回环地址上应答；启用后会往会话注入一段全局提示，说明这几个按钮怎么用。仅支持 macOS。",
+    "descriptionEn": "Adds a top-right power button to the DSH desktop app on macOS: Shut Down / Restart. Restart brings the window back and verifies the new process registered with the window server. Its routes live on the host's own web server and answer only on the loopback address, and enabling the plugin injects a short global prompt explaining the buttons. macOS only.",
+    "repo": "https://github.com/DDDMUC/dsh-power-menu-mac",
+    "npm": "dsh-power-menu-mac",
+    "category": "ui",
+    "subcategory": "panel"
+  },
+  {
+    "id": "dsh-llm-verifier",
+    "name": "LLM 裁判复核",
+    "nameEn": "LLM Verifier",
+    "author": "Aa728848",
+    "description": "DSH 原生可配置 LLM 裁判复核插件：成对比较、锦标赛择优、进度判定与自动验收门控（verifier_compare/select/track/current_session），A–T 标尺 + 期望评分，自带 Web 设置面板。",
+    "descriptionEn": "Configurable DSH-native LLM verifier plugin: pairwise comparison, pivot tournament selection, progress tracking and auto-acceptance gating (verifier_compare/select/track/current_session) with A-T scale scoring and a Web settings page.",
+    "repo": "https://github.com/Aa728848/dsh-llm-verifier",
+    "npm": "dsh-llm-verifier",
+    "category": "tools",
+    "subcategory": "model"
+  },
+  {
     "id": "dsh-keenable",
     "name": "Keenable 联网搜索",
     "nameEn": "Keenable Web Search",
     "author": "keenableai",
-    "description": "把 DSH 内置的 web_search 与 web_fetch 工具接到 Keenable：无需 API key、无需账号，任何模型（包括本地模型）都能联网搜索，不新增工具。web_search 返回排序后的结果、页面摘录和已知的发布日期；web_fetch 在 Keenable 服务器端抓取页面并返回 markdown，不抓取 localhost 与内网地址。安装时把宿主的 searchProvider 和 fetchProvider 固定为 keenable，卸载后恢复宿主默认值。免 key 调用每个 IP 限 10 次/秒、1000 次/小时，启动 DSH 前设置可选的环境变量 KEENABLE_API_KEY 即可解除限制。搜索词和抓取的 URL 会发送给 Keenable。",
-    "descriptionEn": "Points DSH's built-in web_search and web_fetch tools at Keenable, with no API key or account, so web search works with any model, local ones included; it adds no new tools. web_search returns ranked results with a page excerpt and the publication date when known; web_fetch retrieves the page on Keenable's servers and returns it as markdown, refusing localhost and private addresses. Installing pins the host's searchProvider and fetchProvider to keenable; uninstalling restores the host defaults. Keyless use is limited to 10 requests per second and 1,000 per hour per IP; setting the optional KEENABLE_API_KEY environment variable before starting DSH lifts the limit. Queries and fetched URLs are sent to Keenable.",
+    "description": "把 DSH 内置的 web_search 与 web_fetch 工具接到 Keenable：无需 API key、无需账号，任何模型（包括本地模型）都能联网搜索，不新增工具。web_search 返回排序后的结果、页面摘录和已知的发布日期；web_fetch 在 Keenable 服务器端抓取页面并返回 markdown，不抓取 localhost 与内网地址。安装时把宿主的 searchProvider 和 fetchProvider 固定为 keenable，卸载后恢复宿主默认值。免 key 调用每个 IP 限 10 次/秒、1000 次/小时（同一出口 IP 下的用户共用这一额度），启动 DSH 前设置可选的环境变量 KEENABLE_API_KEY 即可解除限制。搜索词和抓取的 URL 会发送给 Keenable。",
+    "descriptionEn": "Points DSH's built-in web_search and web_fetch tools at Keenable, with no API key or account, so web search works with any model, local ones included; it adds no new tools. web_search returns ranked results with a page excerpt and the publication date when known; web_fetch retrieves the page on Keenable's servers and returns it as markdown, refusing localhost and private addresses. Installing pins the host's searchProvider and fetchProvider to keenable; uninstalling restores the host defaults. Keyless use is limited to 10 requests per second and 1,000 per hour per IP, shared by everyone behind the same egress IP; setting the optional KEENABLE_API_KEY environment variable before starting DSH lifts the limit. Queries and fetched URLs are sent to Keenable.",
     "repo": "https://github.com/keenableai/dsh-keenable",
     "npm": "@keenable/dsh-keenable",
     "category": "tools",
