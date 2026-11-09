@@ -1225,6 +1225,42 @@
     "subcategory": "panel"
   },
   {
+    "id": "dsh-llm-verifier",
+    "name": "LLM 裁判复核",
+    "nameEn": "LLM Verifier",
+    "author": "Aa728848",
+    "description": "DSH 原生可配置 LLM 裁判复核插件：成对比较、锦标赛择优、进度判定与自动验收门控（verifier_compare/select/track/current_session），A–T 标尺 + 期望评分，自带 Web 设置面板。",
+    "descriptionEn": "Configurable DSH-native LLM verifier plugin: pairwise comparison, pivot tournament selection, progress tracking and auto-acceptance gating (verifier_compare/select/track/current_session) with A-T scale scoring and a Web settings page.",
+    "repo": "https://github.com/Aa728848/dsh-llm-verifier",
+    "npm": "dsh-llm-verifier",
+    "category": "tools",
+    "subcategory": "model"
+  },
+  {
+    "id": "dsh-keenable",
+    "name": "Keenable 联网搜索",
+    "nameEn": "Keenable Web Search",
+    "author": "keenableai",
+    "description": "把 DSH 内置的 web_search 与 web_fetch 工具接到 Keenable：无需 API key、无需账号，任何模型（包括本地模型）都能联网搜索，不新增工具。web_search 返回排序后的结果、页面摘录和已知的发布日期；web_fetch 在 Keenable 服务器端抓取页面并返回 markdown，不抓取 localhost 与内网地址。安装时把宿主的 searchProvider 和 fetchProvider 固定为 keenable，卸载后恢复宿主默认值。免 key 调用每个 IP 限 10 次/秒、1000 次/小时（同一出口 IP 下的用户共用这一额度），启动 DSH 前设置可选的环境变量 KEENABLE_API_KEY 即可解除限制。搜索词和抓取的 URL 会发送给 Keenable。",
+    "descriptionEn": "Points DSH's built-in web_search and web_fetch tools at Keenable, with no API key or account, so web search works with any model, local ones included; it adds no new tools. web_search returns ranked results with a page excerpt and the publication date when known; web_fetch retrieves the page on Keenable's servers and returns it as markdown, refusing localhost and private addresses. Installing pins the host's searchProvider and fetchProvider to keenable; uninstalling restores the host defaults. Keyless use is limited to 10 requests per second and 1,000 per hour per IP, shared by everyone behind the same egress IP; setting the optional KEENABLE_API_KEY environment variable before starting DSH lifts the limit. Queries and fetched URLs are sent to Keenable.",
+    "repo": "https://github.com/keenableai/dsh-keenable",
+    "npm": "@keenable/dsh-keenable",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
+    "id": "dsh-archived-chats",
+    "name": "归档管理",
+    "nameEn": "Archive Management",
+    "author": "Ultronen",
+    "description": "按工作区管理已归档与未归档会话，支持独立范围正文搜索、只读预览、标签备注、ZIP 备份、来源分支关系图和永久删除确认与重试。最低要求 DeepSeek Harness 0.2.2-rc.1。",
+    "descriptionEn": "Workspace-based archive management with scoped content search, read-only previews, tags and notes, ZIP backups, lineage graphs, and confirmed permanent deletion with retries. Requires DeepSeek Harness 0.2.2-rc.1 or later.",
+    "repo": "https://github.com/Ultroncn/dsh-archived-chats",
+    "npm": "dsh-archived-chats",
+    "category": "utility",
+    "subcategory": "cleanup"
+  },
+  {
     "id": "dsh-plugin-upgrader",
     "name": "插件版本升级",
     "nameEn": "Plugin Version Upgrader",
