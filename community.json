@@ -1636,6 +1636,7 @@
     "description": "本地优先的 RSS/Atom 阅读器，支持全文搜索、批量标记已读、按需 AI 总结和原生伴读。",
     "descriptionEn": "Local-first RSS/Atom reader with full-text search, bulk read marking, on-demand AI summaries and native reading companion.",
     "repo": "https://github.com/morefreeze/dsh-plugin-rss-pal",
+    "npm": "rss-pal-dsh",
     "category": "knowledge",
     "subcategory": "reading"
   },
