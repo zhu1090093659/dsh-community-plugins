@@ -1297,6 +1297,17 @@
     "subcategory": "dev"
   },
   {
+    "id": "dsh-video-read",
+    "name": "视频阅读器",
+    "nameEn": "Video Reader",
+    "author": "Kuest10n",
+    "description": "让任意模型都能“看”视频：B 站链接或本地文件一键抽帧（联系表、场景切点、平台关键帧截图）、时间轴字幕与弹幕、长视频纯文本摘要与按问题检索；图片模态模型直接看图，纯文本模型走字幕/弹幕/描述桥；自动安装 ffmpeg 与 yt-dlp，带 Web 设置面板与缓存管理。",
+    "descriptionEn": "Let any model read a video: a Bilibili link or local file becomes sampled frames (contact sheet, scene cuts, platform keyframe shots), a timestamped subtitle/danmaku timeline, a long-video text digest and question-based retrieval; image-capable models see the frames while text-only models use the subtitle/danmaku/caption bridge. Auto-installs ffmpeg and yt-dlp, with a Web settings panel and cache manager.",
+    "repo": "https://github.com/Kuest10n/dsh-video-read",
+    "category": "tools",
+    "subcategory": "model"
+  },
+  {
     "id": "dsh-vitals",
     "name": "硬件监视",
     "nameEn": "Vitals",
