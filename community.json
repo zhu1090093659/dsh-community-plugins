@@ -542,6 +542,17 @@
     "subcategory": "render"
   },
   {
+    "id": "dsh-git-branch-switcher",
+    "name": "Git 分支切换器",
+    "nameEn": "Git Branch Switcher",
+    "author": "milestone-17",
+    "description": "在 DeepSeek Harness 输入框工具行显示当前 git 分支的胶囊按钮，点击弹出 TRAE 风格菜单：一键切换本地分支或远端跟踪分支，菜单右上角可执行 git fetch 同步远端分支，远端分支一键创建本地跟踪分支，底部「＋ 新建分支」可选源分支（默认 main，没有 main 时用 master）创建并立即把当前会话切到新分支。此外可勾选任意一部分改动提交并推送、双分支合并（自动推断拉取来源，冲突可放弃）、把选中的改动暂存起来再随时恢复。工作区不干净时先弹确认，非 git 目录下显示一条可关闭的首次安装提示，打开 git 仓库后自动显示实际分支。所有弹层停靠在输入框上方不再遮挡草稿，推送与合并标出来源 → 目标流向，改动列表进入即出。",
+    "descriptionEn": "A composer chip in the DeepSeek Harness input row that shows the current git branch of the session working directory. The TRAE-style popup menu switches local branches or remote-tracking branches, fetches remotes on demand, creates a local tracking branch from a remote one in one click, and offers New branch: pick a base branch (main by default, falling back to master if main is absent) and the session switches onto the freshly created branch right away. It can also commit and push a checked subset of changes, merge two branches with an inferred pull source and a conflict abort, and stash a selected subset of changes to restore later. It confirms before switching on a dirty tree and shows a one-time dismissible hint outside git repositories and reveals the real branch once you open a git repo. Every popover docks above the composer so it never covers the draft, the push and merge panels spell out the source → target flow, and the change list opens instantly.",
+    "repo": "https://github.com/milestone-17/dsh-git-branch-switcher",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-github",
     "name": "GitHub 集成",
     "nameEn": "GitHub Integration",
