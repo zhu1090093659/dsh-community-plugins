@@ -461,6 +461,18 @@
     "subcategory": "cleanup"
   },
   {
+    "id": "dsh-douyin-all",
+    "name": "抖音自动陪伴",
+    "nameEn": "Douyin Auto Companion",
+    "author": "q616812935",
+    "description": "把抖音私信自动回复、作品评论自动回复、刷推荐流挑视频转发、人格与长期记忆、语音回复、观看日报合并成一个 DSH 插件，全部走同一个 Edge 浏览器会话。内置免打扰时段与发送频率限制，会真的“看”短视频并按自己的口味打分积累兴趣取向，也能在自己喜欢的别人作品下 @ 主人。含去重闸、禁词闸与站外引导拦截。",
+    "descriptionEn": "One DSH plugin that merges Douyin DM auto-reply, comment auto-reply on your own and others' works, recommendation-feed browsing with video sharing, persona plus long-term memory, voice replies and viewing reports, all driven through a single Edge browser session. Ships quiet hours and send-rate limits, actually \"watches\" each short video and accumulates its own taste profile, and can @-mention you under works it likes. Outbound guard covers duplicate, banned-word and off-site-link checks.",
+    "repo": "https://github.com/q616812935/dsh-douyin-all",
+    "npm": "dsh-douyin-all",
+    "category": "integration",
+    "subcategory": "bridge"
+  },
+  {
     "id": "dsh-flash-presets",
     "name": "DSH Flash 精简预设",
     "nameEn": "DSH Flash Lean Presets",
