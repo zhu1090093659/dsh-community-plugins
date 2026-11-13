@@ -461,6 +461,18 @@
     "subcategory": "cleanup"
   },
   {
+    "id": "dsh-fast-mode",
+    "name": "DSH 快速模式",
+    "nameEn": "DSH Fast Mode",
+    "author": "regrevia",
+    "description": "按步骤自适应思考档位，并按档位批量并行工具调用；零依赖，只使用当前路由真正声明过的档位，官方 API 与自建网关都支持。",
+    "descriptionEn": "Adapts the reasoning effort tier per step and batches parallel tool calls by tier. Zero dependencies, uses only tiers declared by the current route, and works with both the official API and self-hosted gateways.",
+    "repo": "https://github.com/regrevia/dsh-fast-mode",
+    "npm": "dsh-fast-mode",
+    "category": "tools",
+    "subcategory": "model"
+  },
+  {
     "id": "dsh-flash-presets",
     "name": "DSH Flash 精简预设",
     "nameEn": "DSH Flash Lean Presets",
@@ -777,6 +789,18 @@
     "npm": "dsh-mnemon",
     "category": "knowledge",
     "subcategory": "memory"
+  },
+  {
+    "id": "dsh-mobile-use",
+    "name": "真手机接入",
+    "nameEn": "Mobile Use",
+    "author": "regrevia",
+    "description": "把真手机装进 DSH 右栏：实时镜像可点击，圈选标注带着圈图和控件回到会话，模型可读界面文本树而不必截图（adb_ui 120 ms）。画面只走本机回环、免 MCP，需要宿主安装 adb 与 ffmpeg。",
+    "descriptionEn": "Put a real phone in the DSH right sidebar: a live mirror you can click, circled annotations returning with the crop and controls, and a UI text tree the model can read without screenshots (adb_ui 120 ms). Video stays on the local loopback, no MCP required; the host needs adb and ffmpeg.",
+    "repo": "https://github.com/regrevia/dsh-mobile-use",
+    "npm": "dsh-mobile-use",
+    "category": "integration",
+    "subcategory": "remote"
   },
   {
     "id": "dsh-notifier",
@@ -1262,6 +1286,18 @@
     "subcategory": "qa"
   },
   {
+    "id": "dsh-unlag",
+    "name": "解除卡顿",
+    "nameEn": "Unlag",
+    "author": "regrevia",
+    "description": "DSH 桌面端与 Web 的刷新按钮：原地换掉插件代码、重建卡顿界面，宿主正在跑的轮次、子代理、终端进程、排队消息与文字草稿都保留。右键菜单可分别开关换代码、重建界面、自动刷新与 Agent 触发。",
+    "descriptionEn": "A refresh button for the DSH desktop app and web UI: swaps plugin code in place and rebuilds a sluggish interface while host turns, subagents, terminal processes, queued messages and text drafts keep running. Right-click menu toggles code swap, interface rebuild, auto refresh and agent-triggered refresh separately.",
+    "repo": "https://github.com/regrevia/dsh-unlag",
+    "npm": "dsh-unlag",
+    "category": "utility",
+    "subcategory": "cleanup"
+  },
+  {
     "id": "dsh-url-router",
     "name": "地址栏深链",
     "nameEn": "URL Router",
@@ -1447,6 +1483,18 @@
     "npm": "@zmainer/dsh-wx-bridge",
     "category": "integration",
     "subcategory": "bridge"
+  },
+  {
+    "id": "envoy-dsh",
+    "name": "Envoy 链接材料",
+    "nameEn": "Envoy Link Reader",
+    "author": "regrevia",
+    "description": "把网页、公众号文章、PDF、图片帖、B 站视频与本地视频取成带来源定位的材料：视频关键帧与转写带 [mm:ss]，正文切片带来源坐标；读不到的部分标记为未覆盖，不写成结论。Claude Code、Codex、DeepSeek Harness 各有插件。",
+    "descriptionEn": "Turn web pages, WeChat posts, PDFs, image posts, Bilibili videos and local media into source-located material: video keyframes and transcripts carry [mm:ss], text segments carry source coordinates. Unread ranges, missing captions and login walls are reported as uncovered rather than written up as conclusions. Plugins for Claude Code, Codex and DeepSeek Harness.",
+    "repo": "https://github.com/regrevia/Envoy/tree/main/integrations/dsh/envoy-dsh",
+    "npm": "envoy-dsh",
+    "category": "knowledge",
+    "subcategory": "reading"
   },
   {
     "id": "slumberpavilion",
