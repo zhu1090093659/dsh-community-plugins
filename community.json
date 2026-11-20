@@ -649,6 +649,16 @@
     "subcategory": "net"
   },
   {
+    "id": "dsh-handover-protocol",
+    "name": "标准化交接手续开关",
+    "nameEn": "Handover Protocol Toggle",
+    "author": "CoolrfulDARkness",
+    "description": "在会话头部放一个「交接」开关按钮：默认暗色、不注入任何内容，一次性任务会话零打扰；点亮后该会话按 sessionId 注入标准化交接协议指针与触发词手续（准备交接 → 移交方两层移交包，你来接手 → 接管方分级自判加机械验证，fail-closed），开关状态跨重载保持、会话间互不影响，点亮会话内模型可用 handover_status 工具自查。状态文件损坏自动进入全线可见的 degraded 态（按钮变红、API 带 degraded 标志、注入警告行），sessionId 白名单校验拒伪造与原型 key，路由走宿主标准 fence 准入。协议全文可用插件自带通用版，也可用 config.protocolPath 指定自己的文件。",
+    "descriptionEn": "Adds a handover toggle button to each session header: off by default with zero injection (ideal for one-off task sessions); when lit, that session gets a standardized handover-protocol pointer keyed by sessionId, with trigger words driving the handover (handoff side: two-layer handover package; takeover side: graded self-assessment plus mechanical verification, fail-closed). The switch survives reloads and never leaks across sessions, and the model can self-check via the handover_status tool. A corrupted state file flips the plugin into a fully visible degraded state (red button, degraded flag in API responses, warning line on injection). sessionId whitelist blocks spoofing and prototype keys, and routes go through the host's standard fence admission. Ships with a generic protocol file, or point config.protocolPath at your own.",
+    "repo": "https://github.com/CoolrfulDARkness/dsh-handover-protocol",
+    "category": "ui",
+    "subcategory": "chat"
+  },  {
     "id": "dsh-housekeeper",
     "name": "环境管家",
     "nameEn": "Environment Housekeeper",
