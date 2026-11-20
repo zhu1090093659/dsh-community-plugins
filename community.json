@@ -223,6 +223,18 @@
     "subcategory": "context"
   },
   {
+    "id": "dsh-audio-reactive",
+    "name": "音频响应",
+    "nameEn": "Audio Reactive",
+    "author": "ppy-web",
+    "description": "面向 DSH Web 与 Desktop 的音频响应背景主题，基于 audioMotion-analyzer 渲染居中频谱。支持流式朗读（dsh-xiaomi-tts）、音乐面板（dsh-music-panel）、宿主语音听写、麦克风、浏览器共享音频与 Windows 本机声音采集，内置 17 套视觉预设、自定义预设保存与 JSON 导入导出、设置页按住透视预览以及无操作全屏沉浸遮罩。",
+    "descriptionEn": "Audio-reactive visual background theme for DSH Web and Desktop powered by audioMotion-analyzer. Driven by streaming TTS (dsh-xiaomi-tts), dsh-music-panel, host voice dictation, microphone, browser audio sharing, or Windows loopback capture, with 17 built-in presets, custom preset save and JSON import/export, hold-to-peek settings preview, and an optional idle immersive overlay.",
+    "repo": "https://github.com/ppy-web/dsh-audio-reactive",
+    "npm": "dsh-audio-reactive",
+    "category": "ui",
+    "subcategory": "render"
+  },
+  {
     "id": "dsh-audiogen",
     "name": "AI 音频",
     "nameEn": "AI AudioGen",
