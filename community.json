@@ -1206,6 +1206,18 @@
     "subcategory": "dev"
   },
   {
+    "id": "dsh-session-color",
+    "name": "会话背景色",
+    "nameEn": "Session Color",
+    "author": "muutot",
+    "description": "给左侧会话列表的单条会话换背景色：会话行右键 → 选颜色，9 个预设色自动适配深浅色主题，颜色按会话持久保存（宿主 JSON 存储，不进模型上下文）。兼容 0.2.1-rc.5（自绘菜单）与 0.2.2+（官方 contextMenus）。",
+    "descriptionEn": "Color individual conversations in the sidebar: right-click a session row to pick from 9 preset colors that adapt to the light/dark theme, persisted per session in a host-side JSON store (never enters model context). Compatible with 0.2.1-rc.5 (self-drawn menu) and 0.2.2+ (official contextMenus).",
+    "repo": "https://github.com/muutot/dsh-session-color",
+    "npm": "@muutot/dsh-session-color",
+    "category": "ui",
+    "subcategory": "chat"
+  },
+  {
     "id": "dsh-session-enhance",
     "name": "会话增强（dsh-session-enhance）",
     "nameEn": "Session Enhance",
