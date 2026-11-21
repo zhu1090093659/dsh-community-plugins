@@ -1254,6 +1254,18 @@
     "subcategory": "panel"
   },
   {
+    "id": "dsh-sixlayer-memory",
+    "name": "六层记忆底座",
+    "nameEn": "Six-layer Memory",
+    "author": "z9134",
+    "description": "会先审后记、还带审计链的本地记忆：每一轮按你的输入自动召回，写入先过闸门进待审，凭证级内容永不外显，全部动作留哈希链。零外部依赖，数据不出本机；点关系图上的圆点就能看这一条记忆的全部。",
+    "descriptionEn": "Local, auditable long-term memory: query-aware recall every turn, untrusted writes held for review, credential-level content never surfaced, and every action on a hash-chain. Zero runtime dependencies; click a node in the graph to read the whole record.",
+    "repo": "https://github.com/z9134/dsh-sixlayer-memory",
+    "npm": "dsh-sixlayer-memory",
+    "category": "knowledge",
+    "subcategory": "memory"
+  },
+  {
     "id": "dsh-skill-explorer",
     "name": "技能中心（Skill Explorer）",
     "nameEn": "Skill Explorer",
