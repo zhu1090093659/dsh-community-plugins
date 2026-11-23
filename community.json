@@ -1348,6 +1348,18 @@
     "subcategory": "chat"
   },
   {
+    "id": "dsh-t3-inbox",
+    "name": "收件箱侧边栏 (dsh-t3-inbox)",
+    "nameEn": "Inbox Sidebar (dsh-t3-inbox)",
+    "author": "tungloong",
+    "description": "面向 DeepSeek Harness 的 T3 Code 风格注意力收件箱侧边栏插件：把运行中与待处理分区隔开，卡片直接显示明确状态文字（待批准/待输入/失败/受限/已唤醒/完成）与 Git 分支/worktree 信息，支持单点收尾、竖向扫选（Sweep）与 5 秒撤销、可编辑暂缓快捷选项与日历弹窗、高相关搜索、多选项目筛选、自动跟随第三方皮肤与 8 语言界面；仅写轻量插件元数据，随时可一键切回原生工作区视图。",
+    "descriptionEn": "Attention-first, T3 Code-inspired inbox sidebar for DeepSeek Harness: separates running threads from what needs your decision, surfaces explicit status text (Approval/Input/Failed/Limited/Woke/Done) and Git branch/worktree context, and supports single Settle, vertical Sweep with 5s undo, customizable Snooze presets and calendar, ranked search, multi-select project filter, auto theme detection, and 8 languages - storing only lightweight plugin metadata with a one-click switch back to native Workspaces View.",
+    "repo": "https://github.com/tungloong/dsh-t3-inbox",
+    "npm": "dsh-t3-inbox",
+    "category": "ui",
+    "subcategory": "panel"
+  },
+  {
     "id": "dsh-talk",
     "name": "语音交互",
     "nameEn": "Voice Session",
