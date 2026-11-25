@@ -719,6 +719,19 @@
     "subcategory": "bridge"
   },
   {
+    "id": "dsh-gui-forkgo",
+    "name": "GUI 图形层",
+    "nameEn": "GUI Layer",
+    "author": "赢容",
+    "description": "DSH 的图形层 —— 让 AI 直接操控整台 Windows 机器：看屏幕、点击、输入、快捷键、窗口与进程、文件、注册表、命令、剪贴板、虚拟桌面、独立子会话。8 个工具 + 一份教 AI 按顺序用它们的技能 · Windows only",
+    "descriptionEn": "Gives DeepSeek Harness eyes and hands on a Windows desktop: eight MCP tools cover screen capture, mouse and keyboard input, window and process control, files, the registry, PowerShell, the clipboard, virtual desktops and an isolated child session, plus a skill that teaches the model the order to call them in.",
+    "repo": "https://github.com/forkgo430/dsh-gui-forkgo",
+    "npm": "dsh-gui-forkgo",
+    "version": "1.3.1",
+    "category": "tools",
+    "subcategory": "api"
+  },
+  {
     "id": "dsh-gzip",
     "name": "dsh-gzip",
     "nameEn": "dsh-gzip",
