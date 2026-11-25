@@ -743,6 +743,17 @@
     "subcategory": "cleanup"
   },
   {
+    "id": "dsh-hpc-style-for-ai",
+    "name": "HPC 通用设计与评审",
+    "nameEn": "HPC Style for AI",
+    "author": "WangZW928",
+    "description": "按需加载的 HPC 设计与评审技能：十二条通用原则覆盖数值契约、成本模型、数据运动、绑定时机、并发依赖和工程取舍；模板策略说明按需读取，AMReX 源码案例独立于规范。当前宿主兼容声明为 DSH 0.2.1-rc.5。",
+    "descriptionEn": "An on-demand HPC design and review skill with twelve general principles for numerical contracts, cost models, data movement, binding time, dependencies and engineering tradeoffs; implementation guidance is optional and source examples are separate. The declared host compatibility is currently DSH 0.2.1-rc.5.",
+    "repo": "https://github.com/WangZW928/HPC_Style_For_AI",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-imagegen",
     "name": "AI 生图",
     "nameEn": "AI ImageGen",
