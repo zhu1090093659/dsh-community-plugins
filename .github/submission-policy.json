@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "comment": "Repository submission policy. blockedContributors: accounts whose pull requests are closed without review. Enforced by .github/workflows/submission-policy.yml and scripts/submission-policy.mjs.",
+  "blockedContributors": []
+}

@@ -1,0 +1,42 @@
+{
+  "comment": true,
+  "defaultRoute": {
+    "label": "Default owner: index source, docs and repository maintenance",
+    "reviewers": [
+      "zhu1090093659"
+    ],
+    "assignees": [
+      "zhu1090093659"
+    ]
+  },
+  "routes": [
+    {
+      "name": "index-entry",
+      "label": "Community index entry (community.json)",
+      "paths": [
+        "community.json"
+      ],
+      "reviewers": [
+        "zhu1090093659"
+      ],
+      "assignees": [
+        "zhu1090093659"
+      ]
+    },
+    {
+      "name": "index-source",
+      "label": "Index source (src/, scripts/, tests/)",
+      "paths": [
+        "src/**",
+        "scripts/**",
+        "tests/**"
+      ],
+      "reviewers": [
+        "zhu1090093659"
+      ],
+      "assignees": [
+        "zhu1090093659"
+      ]
+    }
+  ]
+}
