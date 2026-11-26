@@ -1252,6 +1252,19 @@
     "subcategory": "api"
   },
   {
+    "id": "dsh-gonic",
+    "name": "Gonic 音乐库",
+    "nameEn": "Gonic Music",
+    "author": "omdsh-dev",
+    "description": "把 Gonic/Subsonic 曲库接进 DSH：搜索、浏览、加星与歌单面板，浏览器内直接播放；Agent 侧提供 gonic_search / gonic_browse / gonic_starred / gonic_playlists / gonic_create_playlist / gonic_play 工具，gonic_play 经 Host→浏览器指令通道替换播放队列并开播。",
+    "descriptionEn": "Gonic/Subsonic music library inside DSH: search, browse, starred and playlist panels with playback in the browser, plus agent tools (gonic_search / gonic_browse / gonic_starred / gonic_playlists / gonic_create_playlist / gonic_play); gonic_play swaps the player queue and starts playback through the host-to-browser command channel.",
+    "repo": "https://github.com/omdsh-dev/dsh-gonic",
+    "npm": "dsh-gonic",
+    "version": "0.3.1",
+    "category": "ui",
+    "subcategory": "panel"
+  },
+  {
     "id": "dsh-grant-cn",
     "name": "基金申请书检查",
     "nameEn": "Grant Application Check",
