@@ -2679,6 +2679,19 @@
     "subcategory": "api"
   },
   {
+    "id": "dsh-science-plugin",
+    "name": "科研工作台",
+    "nameEn": "DSH Science Workbench",
+    "author": "SPYfighting",
+    "description": "在项目面板管理研究问题、目标结果与支持证据，并向专业子代理分派科研任务。",
+    "descriptionEn": "Organizes research questions, target results and supporting evidence in a project dashboard, and assigns research tasks to specialist agents.",
+    "repo": "https://github.com/SPYfighting/dsh-science-plugin",
+    "npm": "dsh-science-plugin",
+    "version": "0.14.3",
+    "category": "ui",
+    "subcategory": "panel"
+  },
+  {
     "id": "dsh-score",
     "name": "插件评分",
     "nameEn": "Plugin Scoring",
