@@ -3306,6 +3306,19 @@
     "subcategory": "api"
   },
   {
+    "id": "dsh-web-skin",
+    "name": "六合一皮肤包",
+    "nameEn": "Six-in-one Skin Pack",
+    "author": "omdsh-dev",
+    "description": "设置页一键切换的六套皮肤：极简灰、粗野主义、莫兰迪、像素、Solarized、Dracula，每套都有浅色/深色两档；基于宿主 --dsw-* token 覆盖实现，不改 DSH 源码，未装皮肤时仍回落原生主题。",
+    "descriptionEn": "Six themes switchable from the settings page — Minimal Grey, Brutalism, Morandi, Pixel, Solarized and Dracula, each with a light and a dark variant — implemented as --dsw-* token overrides with no DSH source changes, falling back to the stock theme when no skin is installed.",
+    "repo": "https://github.com/omdsh-dev/dsh-web-skin",
+    "npm": "dsh-web-skin",
+    "version": "0.2.0",
+    "category": "ui",
+    "subcategory": "render"
+  },
+  {
     "id": "dsh-web-start-ui",
     "name": "dsh web start ui · 启动动画",
     "nameEn": "dsh web start ui (Launch Video)",
