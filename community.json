@@ -39,6 +39,19 @@
     "subcategory": "memory"
   },
   {
+    "id": "deep-toolbox",
+    "name": "工具用量与启动成本",
+    "nameEn": "Tool usage & startup cost",
+    "author": "JoblessJoe",
+    "description": "看清智能体真正在用哪些工具、哪些经常出错，以及每个工具在每次请求中占用多少 token。每个已安装的工具（内置、插件或 MCP 服务器）都会把完整定义随每次模型请求发送——一个 37 个工具的 MCP 服务器即使从未被调用，也会给每个提示词增加数千 token。插件页新增「工具用量与启动成本」标签：先看摘要（新对话的启动 token、付了却从未用到的 token、失败调用）和通俗建议，再看启动上下文图（内置工具、每个 MCP 服务器和插件、每个 AGENTS.md、系统提示词、技能列表），以及按来源分组的工具表（调用次数、子智能体调用、错误与最近错误信息、平均耗时、结果大小、每次对话的 token）。另提供只读的 toolbox_report 智能体工具，智能体可据此建议用 plugin_manager 关闭从未使用的来源（会先征求你的同意）。直接读取 DSH 自己的会话日志：无钩子、无数据库，数据不离开本机。附带命令行 npx deep-toolbox。零运行时依赖，中英双语。",
+    "descriptionEn": "See which tools your agents actually use, which ones fail, and what each one costs you in every request. Every installed tool (built-in, plugin or MCP server) sends its full definition with every model request, so a 37-tool MCP server adds thousands of tokens to each prompt even if nothing ever calls it. Adds a Tool usage & startup cost tab to the Plugins page: a summary first (startup tokens of a new chat, tokens paid for but never used, failed calls) with plain-language tips, then a startup-context chart (built-in tools, each MCP server and plugin, each AGENTS.md, system prompt, skill list) and per-source tool tables (calls, subagent calls, errors with the latest messages, average time, result size, tokens per chat). A read-only toolbox_report agent tool lets agents suggest turning off unused sources via plugin_manager, which asks you first. Reads dsh's own session logs: no hooks, no database, nothing leaves your machine. Includes a CLI, npx deep-toolbox. Zero runtime dependencies, English and Chinese.",
+    "repo": "https://github.com/JoblessJoe/deep-toolbox",
+    "npm": "deep-toolbox",
+    "version": "0.1.4",
+    "category": "utility",
+    "subcategory": "stats"
+  },
+  {
     "id": "deepseek-harness-auth",
     "name": "DeepSeek Harness Auth",
     "nameEn": "DeepSeek Harness Auth",
