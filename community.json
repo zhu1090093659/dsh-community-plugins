@@ -2202,6 +2202,19 @@
     "subcategory": "bridge"
   },
   {
+    "id": "dsh-pi-models",
+    "name": "Pi 模型投影",
+    "nameEn": "Pi Models",
+    "author": "omdsh-dev",
+    "description": "把 pi（pi-coding-agent）models.json 里已配置的 provider、模型、密钥与思考档位投影到 DSH 的模型选择器，复用 pi 的模型配置，不必在 DSH 里再填一遍。",
+    "descriptionEn": "Project the providers, models, keys and thinking levels already configured in pi's models.json into the DSH model picker, reusing the pi model configuration instead of entering it again in DSH.",
+    "repo": "https://github.com/omdsh-dev/dsh-pi-models",
+    "npm": "dsh-pi-models",
+    "version": "0.2.0",
+    "category": "tools",
+    "subcategory": "model"
+  },
+  {
     "id": "dsh-pilot",
     "name": "Pilot 浏览器驾驶舱",
     "nameEn": "Pilot Browser Cockpit",
