@@ -1084,7 +1084,7 @@
     "descriptionEn": "The DeepSeek Harness client edition of the Famling pixel pet: Tinglan / Ragdoll cat / Golden Retriever animations in the sidebar footer, a right-click or Shift+F10 hierarchical menu, a role-as-theme content center and unified settings (quiet hours, reduce motion, temporary hide); zero persistent buttons, local-only preferences, no network and no script execution. License: PolyForm-Noncommercial-1.0.0 (non-commercial) with CC BY-NC-SA 4.0 artwork; an unofficial project, not affiliated with DeepSeek.",
     "repo": "https://github.com/PerryLink/dsh-famling",
     "npm": "dsh-famling",
-    "version": "0.14.1",
+    "version": "0.14.3",
     "category": "ui",
     "subcategory": "render"
   },
