@@ -1859,6 +1859,19 @@
     "subcategory": "memory"
   },
   {
+    "id": "dsh-memos",
+    "name": "Memos 笔记",
+    "nameEn": "Memos Notes",
+    "author": "omdsh-dev",
+    "description": "只读接入自托管 memos（usememos）：设置页填服务器地址与访问令牌后，Agent 用 memos_search / memos_list / memos_get 按关键词或标签检索、翻页浏览、读取单条完整内容；凭据存 ~/.dsh/dsh-memos.json（0600），不回显完整令牌，不写入也不修改笔记。",
+    "descriptionEn": "Read-only integration for a self-hosted memos (usememos) server: save the URL and access token in the settings panel, then let the agent search by keyword or tag, page through recent notes and read full note bodies through memos_search / memos_list / memos_get. Credentials live in ~/.dsh/dsh-memos.json (0600), tokens are never echoed in full, and notes are never written or modified.",
+    "repo": "https://github.com/omdsh-dev/dsh-memos",
+    "npm": "dsh-memos",
+    "version": "0.1.0",
+    "category": "knowledge",
+    "subcategory": "reading"
+  },
+  {
     "id": "dsh-meta-analysis",
     "name": "元分析计算",
     "nameEn": "Meta Analysis",
