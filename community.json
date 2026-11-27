@@ -3217,6 +3217,19 @@
     "subcategory": "terminal"
   },
   {
+    "id": "dsh-turn-report",
+    "name": "轮末项目汇报",
+    "nameEn": "Turn Report",
+    "author": "NethielChou",
+    "description": "每轮回复结束后在回复下方出一张汇报卡：工具调用与失败数、模型调用次数与 token 用量、本轮改动文件、本轮新完成的任务。写过任务清单时另有计划进度条，按阶段分组（清单项写【阶段一】这类前缀即可），每个阶段可单独折叠。清单没更新的轮次会注明沿用的是第几轮，会话从未用过清单则直接说明。全部由宿主从会话日志推导，不调用模型、不消耗 token。",
+    "descriptionEn": "A report card under every completed reply: tool calls and failures, model call count and token spend, files touched, and what this turn newly finished. When a task list exists it adds a plan progress bar grouped by stage (mark items with a stage prefix) with each stage foldable, and a turn that carried the previous list forward says which turn it came from. Everything is derived from the session log on the host: no model calls, no token cost.",
+    "repo": "https://github.com/NethielChou/dsh-turn-report",
+    "npm": "@nethiel/dsh-turn-report",
+    "version": "0.1.1",
+    "category": "ui",
+    "subcategory": "panel"
+  },
+  {
     "id": "dsh-tutorloop",
     "name": "TutorLoop 学习陪练",
     "nameEn": "TutorLoop Study Companion",
