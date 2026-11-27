@@ -1234,7 +1234,7 @@
     "descriptionEn": "Puts your own GitHub repositories on one local page: view and clone trends, npm downloads, which pages the traffic lands on, outside issues and pull requests, per-repository release before/after comparison, and an AI-written summary; the all-repositories view ranks by visitors or downloads and answers which repo gained the most stars in the last 7 days. It fetches with your own token and keeps snapshots on this machine, with no third-party analytics service; the bundled plugin exposes the same data as a github_overview tool the model can query for views, downloads and growth.",
     "repo": "https://github.com/regrevia/github-overview",
     "npm": "dsh-github-overview",
-    "version": "0.3.4",
+    "version": "0.3.5",
     "category": "utility",
     "subcategory": "stats"
   },
