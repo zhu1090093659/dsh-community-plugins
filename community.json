@@ -1226,6 +1226,19 @@
     "subcategory": "bridge"
   },
   {
+    "id": "dsh-github-overview",
+    "name": "GitHub 概览",
+    "nameEn": "GitHub Overview",
+    "author": "regrevia",
+    "description": "把自己的 GitHub 仓库摊在一个本地页面上：浏览与克隆的趋势、npm 下载、流量落在哪些页面、外部人提的 issue 和 PR、各仓发版前后的对比，外加一段 AI 摘要；切到「全部仓库」还能按访客或下载排名，问一句哪个仓近 7 天涨 star 最多。只用你自己的 token 在本地抓数据、存本机，不经过第三方统计服务；插件部分把这份数据做成 github_overview 工具，模型可以直接查窗口内的访问、下载和成长。",
+    "descriptionEn": "Puts your own GitHub repositories on one local page: view and clone trends, npm downloads, which pages the traffic lands on, outside issues and pull requests, per-repository release before/after comparison, and an AI-written summary; the all-repositories view ranks by visitors or downloads and answers which repo gained the most stars in the last 7 days. It fetches with your own token and keeps snapshots on this machine, with no third-party analytics service; the bundled plugin exposes the same data as a github_overview tool the model can query for views, downloads and growth.",
+    "repo": "https://github.com/regrevia/github-overview",
+    "npm": "dsh-github-overview",
+    "version": "0.3.2",
+    "category": "utility",
+    "subcategory": "stats"
+  },
+  {
     "id": "dsh-gongwen-flow-check",
     "name": "公文流转记录核对",
     "nameEn": "Official Document Flow Check",
