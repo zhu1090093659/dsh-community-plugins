@@ -2679,6 +2679,19 @@
     "subcategory": "api"
   },
   {
+    "id": "dsh-science-review",
+    "name": "回答审查",
+    "nameEn": "DSH Science Review",
+    "author": "SPYfighting",
+    "description": "对照用户要求、工具记录和交付文件审查回答，并在回答下方展示发现的问题及证据原文。",
+    "descriptionEn": "Reviews answers against the user's instructions, tool results and delivered files. Findings and quoted evidence appear beneath the answer.",
+    "repo": "https://github.com/SPYfighting/dsh-science-review",
+    "npm": "dsh-science-review",
+    "version": "0.4.0",
+    "category": "ui",
+    "subcategory": "chat"
+  },
+  {
     "id": "dsh-score",
     "name": "插件评分",
     "nameEn": "Plugin Scoring",
